@@ -94,4 +94,4 @@
 - QA mới `tests/weapons.mjs` chạy nhưng dừng ở ak-seven-buckets:8mesh/2920triangles thay vì7. Còn cần sửa material buckets, kiểm contact/tactical+empty reload cho AK/M4, sửa studio capture (ảnh đang trùng gameplay), kiểm lại gameplay và hình ảnh.
 - Lần chạy browser tiếp bị hệ thống xét duyệt tự động từ chối do hết hạn mức xét duyệt, không phải kết luận hành động nguy hiểm. Lệnh lần đó không thực thi, bao gồm thay đổi gộp bucket.
 - Trước snapshot:node --check17file đạt, hash3fileSaltline gốc nguyên vẹn; không thấy credential theo mẫu đã quét. Cấu hình .vercel và file môi trường bị loại khỏi Git.
-- Baseline trước sửa tay còn trong artifacts/hands-weapons-before. Repo Git dự kiến private danielnguyen0428/saltline-sirocco; sourceSaltline ởroot,Sirocco trongdemo/.
+- Baseline trước sửa tay còn trong artifacts/hands-weapons-before. Repo Git private danielnguyen0428/saltline-sirocco đã tạo và push main (source commit d5616a5); sourceSaltline ởroot,Sirocco trongdemo/.

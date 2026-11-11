@@ -111,3 +111,8 @@
 - Theo yêu cầu user, chuẩn bị repo riêng tư saltline-sirocco trên tài khoản GitHub đang active danielnguyen0428. Saltline ởroot, Sirocco ởdemo/, kèm tài liệu và bằng chứng.
 - Sirocco đang sửa tay/vũ khí, chưa hoàn tất QA. README ghi rõ test mới fail8/7bucket và các báo cáo43/23ca là mốc trước sửa. Không rollback hoặc xóa thay đổi đang có.
 - Kiểm trước commit:17fileJS syntaxPASS,3hashSaltline gốcPASS, credential-pattern scan không phát hiện; không lưu .vercel hoặc .env.
+
+### Git đã đồng bộ
+- Repo riêng tư: https://github.com/danielnguyen0428/saltline-sirocco ; remote origin, nhánh main.
+- Commit source ban đầu d5616a5def8166d04436c4fa002b89a91fa35359 đã push; GitHub API và git ls-remote trả đúng SHA local. Cả Saltline ởroot và Sirocco ởdemo/ đã được lưu,181file.
+- Trạng thái sửa tay/vũ khí vẫn là WIP như README; yêu cầu lưu cả hai bản lên Git đã hoàn thành.
