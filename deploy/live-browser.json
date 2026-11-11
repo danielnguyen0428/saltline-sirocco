@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "url": "https://www.meowsolo.com/gameaaa/?q=test&noaudio=1",
+  "files": {
+    "https://meowsolo.com/gameaaa": 307,
+    "https://www.meowsolo.com/gameaaa": 308,
+    "https://www.meowsolo.com/gameaaa/": 200,
+    "https://www.meowsolo.com/gameaaa/styles.css": 200,
+    "https://www.meowsolo.com/gameaaa/game.js": 200
+  },
+  "boot": {
+    "ready": true,
+    "fatal": null,
+    "revision": "180"
+  },
+  "afterClick": "intro",
+  "state": "playing",
+  "ammo": 28,
+  "pageErrors": [],
+  "fixture": {
+    "skipIntro": true,
+    "noaudio": true
+  }
+}

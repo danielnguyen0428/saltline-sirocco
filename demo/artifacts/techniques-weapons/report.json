@@ -1,0 +1,74 @@
+{
+  "state": {
+    "stats": {
+      "models": {
+        "ak": {
+          "meshes": 10,
+          "triangles": 2680
+        },
+        "m4": {
+          "meshes": 9,
+          "triangles": 3660
+        }
+      },
+      "textureSets": [
+        "wood",
+        "fabric"
+      ],
+      "handTechnique": "Saltline Vv section loft with joint bisectors",
+      "muzzleQuads": 8,
+      "springs": 9,
+      "reload": "smootherstep position + quaternion keyframes"
+    },
+    "motion": {
+      "springs": {
+        "recoilZ": {
+          "position": 0,
+          "velocity": 0
+        },
+        "recoilPitch": {
+          "position": 0,
+          "velocity": 0
+        },
+        "recoilYaw": {
+          "position": 0,
+          "velocity": 0
+        },
+        "recoilRoll": {
+          "position": 0,
+          "velocity": 0
+        },
+        "swayYaw": {
+          "position": 0,
+          "velocity": 0
+        },
+        "swayPitch": {
+          "position": 0,
+          "velocity": 0
+        },
+        "jumpY": {
+          "position": 0,
+          "velocity": 0
+        },
+        "jumpPitch": {
+          "position": 0,
+          "velocity": 0
+        },
+        "reloadBump": {
+          "position": 0,
+          "velocity": 0
+        }
+      },
+      "finger": 5.4501454508504155e-37,
+      "magazine": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ammo": 30,
+    "reserve": 90,
+    "errors": []
+  },
+  "errors": []
+}

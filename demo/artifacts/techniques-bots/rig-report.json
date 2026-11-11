@@ -1,0 +1,325 @@
+{
+  "asset": {
+    "sourceParts": [
+      {
+        "name": "trousers-seat",
+        "joint": "pelvis",
+        "slot": "uniform"
+      },
+      {
+        "name": "belt",
+        "joint": "pelvis",
+        "slot": "polymer"
+      },
+      {
+        "name": "belt-buckle",
+        "joint": "pelvis",
+        "slot": "metal"
+      },
+      {
+        "name": "jacket",
+        "joint": "upper-body",
+        "slot": "uniform"
+      },
+      {
+        "name": "armour-front",
+        "joint": "upper-body",
+        "slot": "webbing"
+      },
+      {
+        "name": "armour-back",
+        "joint": "upper-body",
+        "slot": "webbing"
+      },
+      {
+        "name": "daypack",
+        "joint": "upper-body",
+        "slot": "webbing"
+      },
+      {
+        "name": "shoulder-strap",
+        "joint": "upper-body",
+        "slot": "polymer"
+      },
+      {
+        "name": "shoulder-strap",
+        "joint": "upper-body",
+        "slot": "polymer"
+      },
+      {
+        "name": "magazine-pouch",
+        "joint": "upper-body",
+        "slot": "webbing"
+      },
+      {
+        "name": "pouch-flap",
+        "joint": "upper-body",
+        "slot": "polymer"
+      },
+      {
+        "name": "magazine-pouch",
+        "joint": "upper-body",
+        "slot": "webbing"
+      },
+      {
+        "name": "pouch-flap",
+        "joint": "upper-body",
+        "slot": "polymer"
+      },
+      {
+        "name": "magazine-pouch",
+        "joint": "upper-body",
+        "slot": "webbing"
+      },
+      {
+        "name": "pouch-flap",
+        "joint": "upper-body",
+        "slot": "polymer"
+      },
+      {
+        "name": "identification-patch",
+        "joint": "upper-body",
+        "slot": "patch"
+      },
+      {
+        "name": "balaclava",
+        "joint": "head",
+        "slot": "polymer"
+      },
+      {
+        "name": "face-exposure",
+        "joint": "head",
+        "slot": "skin"
+      },
+      {
+        "name": "goggle-lens",
+        "joint": "head",
+        "slot": "lens"
+      },
+      {
+        "name": "goggle-lens",
+        "joint": "head",
+        "slot": "lens"
+      },
+      {
+        "name": "goggle-bridge",
+        "joint": "head",
+        "slot": "polymer"
+      },
+      {
+        "name": "helmet-shell",
+        "joint": "head",
+        "slot": "uniform"
+      },
+      {
+        "name": "helmet-rim",
+        "joint": "head",
+        "slot": "polymer"
+      },
+      {
+        "name": "headset-earcup",
+        "joint": "head",
+        "slot": "polymer"
+      },
+      {
+        "name": "headset-earcup",
+        "joint": "head",
+        "slot": "polymer"
+      },
+      {
+        "name": "trouser-upper-left",
+        "joint": "hip-left",
+        "slot": "uniform"
+      },
+      {
+        "name": "cargo-pocket-left",
+        "joint": "hip-left",
+        "slot": "webbing"
+      },
+      {
+        "name": "trouser-lower-left",
+        "joint": "knee-left",
+        "slot": "uniform"
+      },
+      {
+        "name": "kneepad-left",
+        "joint": "knee-left",
+        "slot": "polymer"
+      },
+      {
+        "name": "boot-left",
+        "joint": "ankle-left",
+        "slot": "polymer"
+      },
+      {
+        "name": "boot-sole-left",
+        "joint": "ankle-left",
+        "slot": "polymer"
+      },
+      {
+        "name": "sleeve-upper-left",
+        "joint": "shoulder-left",
+        "slot": "uniform"
+      },
+      {
+        "name": "sleeve-lower-left",
+        "joint": "elbow-left",
+        "slot": "uniform"
+      },
+      {
+        "name": "elbow-reinforcement-left",
+        "joint": "elbow-left",
+        "slot": "webbing"
+      },
+      {
+        "name": "glove-left",
+        "joint": "wrist-left",
+        "slot": "polymer"
+      },
+      {
+        "name": "thumb-left",
+        "joint": "wrist-left",
+        "slot": "polymer"
+      },
+      {
+        "name": "trouser-upper-right",
+        "joint": "hip-right",
+        "slot": "uniform"
+      },
+      {
+        "name": "cargo-pocket-right",
+        "joint": "hip-right",
+        "slot": "webbing"
+      },
+      {
+        "name": "trouser-lower-right",
+        "joint": "knee-right",
+        "slot": "uniform"
+      },
+      {
+        "name": "kneepad-right",
+        "joint": "knee-right",
+        "slot": "polymer"
+      },
+      {
+        "name": "boot-right",
+        "joint": "ankle-right",
+        "slot": "polymer"
+      },
+      {
+        "name": "boot-sole-right",
+        "joint": "ankle-right",
+        "slot": "polymer"
+      },
+      {
+        "name": "sleeve-upper-right",
+        "joint": "shoulder-right",
+        "slot": "uniform"
+      },
+      {
+        "name": "sleeve-lower-right",
+        "joint": "elbow-right",
+        "slot": "uniform"
+      },
+      {
+        "name": "elbow-reinforcement-right",
+        "joint": "elbow-right",
+        "slot": "webbing"
+      },
+      {
+        "name": "glove-right",
+        "joint": "wrist-right",
+        "slot": "polymer"
+      },
+      {
+        "name": "thumb-right",
+        "joint": "wrist-right",
+        "slot": "polymer"
+      },
+      {
+        "name": "rifle-receiver",
+        "joint": "held-rifle",
+        "slot": "metal"
+      },
+      {
+        "name": "rifle-stock",
+        "joint": "held-rifle",
+        "slot": "polymer"
+      },
+      {
+        "name": "rifle-foregrip",
+        "joint": "held-rifle",
+        "slot": "polymer"
+      },
+      {
+        "name": "rifle-grip",
+        "joint": "held-rifle",
+        "slot": "polymer"
+      },
+      {
+        "name": "rifle-magazine",
+        "joint": "held-rifle",
+        "slot": "metal"
+      },
+      {
+        "name": "rifle-sight",
+        "joint": "held-rifle",
+        "slot": "polymer"
+      },
+      {
+        "name": "rifle-barrel",
+        "joint": "held-rifle",
+        "slot": "metal"
+      }
+    ],
+    "joints": 16,
+    "meshes": 1,
+    "triangles": 6952,
+    "materialGroups": 7,
+    "sharedGeometry": true,
+    "rig": "rigid-weight SkinnedMesh"
+  },
+  "invalid": 0,
+  "degenerate": 0,
+  "rigid": 20856,
+  "vertices": 20856,
+  "wrongBone": 0,
+  "grips": [
+    {
+      "side": "left",
+      "wrist": [
+        0.04000000000000001,
+        1.22,
+        -0.4600000000000001
+      ]
+    },
+    {
+      "side": "right",
+      "wrist": [
+        0.06,
+        1.14,
+        -0.21
+      ]
+    }
+  ],
+  "sharedGeometries": 1,
+  "skeletons": 4,
+  "boneObjects": 64,
+  "skinMotion": {
+    "before": [
+      -0.0364999957382679,
+      0.49000000953674316,
+      0
+    ],
+    "after": [
+      -0.0364999957382679,
+      0.49000000759204676,
+      5.771507327612113e-9
+    ]
+  },
+  "uniformArrays": 4,
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ],
+  "pass": false
+}

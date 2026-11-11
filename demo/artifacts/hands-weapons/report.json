@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "name": "ak-metre-hand-scale",
+      "passed": true,
+      "detail": {
+        "grip": [
+          4.440892098500626e-16,
+          -0.04999999999999982,
+          0.06199999999999761
+        ],
+        "palm": [
+          -0.008000000000000007,
+          -0.017999999999999794,
+          -0.32000000000000384
+        ],
+        "handScale": [
+          1,
+          1,
+          1
+        ],
+        "fingerGap": 0.007759145415236672,
+        "trigger": {
+          "group": "ak-assembly",
+          "name": "trigger",
+          "material": "machined-steel",
+          "min": [
+            -0.0047599999234080315,
+            -0.034679997712373734,
+            -0.00412354152649641
+          ],
+          "max": [
+            0.0047599999234080315,
+            0.017680000513792038,
+            0.014310894533991814
+          ],
+          "triangles": 44
+        },
+        "models": {
+          "ak": {
+            "meshes": 8,
+            "triangles": 2920
+          },
+          "m4": {
+            "meshes": 7,
+            "triangles": 5704
+          }
+        }
+      }
+    },
+    {
+      "name": "ak-trigger-contact",
+      "passed": true,
+      "detail": {
+        "grip": [
+          4.440892098500626e-16,
+          -0.04999999999999982,
+          0.06199999999999761
+        ],
+        "palm": [
+          -0.008000000000000007,
+          -0.017999999999999794,
+          -0.32000000000000384
+        ],
+        "handScale": [
+          1,
+          1,
+          1
+        ],
+        "fingerGap": 0.007759145415236672,
+        "trigger": {
+          "group": "ak-assembly",
+          "name": "trigger",
+          "material": "machined-steel",
+          "min": [
+            -0.0047599999234080315,
+            -0.034679997712373734,
+            -0.00412354152649641
+          ],
+          "max": [
+            0.0047599999234080315,
+            0.017680000513792038,
+            0.014310894533991814
+          ],
+          "triangles": 44
+        },
+        "models": {
+          "ak": {
+            "meshes": 8,
+            "triangles": 2920
+          },
+          "m4": {
+            "meshes": 7,
+            "triangles": 5704
+          }
+        }
+      }
+    },
+    {
+      "name": "ak-seven-buckets",
+      "passed": false,
+      "detail": {
+        "meshes": 8,
+        "triangles": 2920
+      }
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "ak-idle",
+    "ak-right",
+    "ak-left",
+    "ak-top"
+  ],
+  "limits": [
+    "Fixed-clock fixtures isolate contacts and reload.",
+    "Studio views disable postprocessing and use neutral lighting."
+  ],
+  "baseline": {
+    "grip": [
+      -0.009949999999999959,
+      -0.1377474890883571,
+      0.002350607449403075
+    ],
+    "palm": [
+      -0.008071267773144986,
+      0.004999999999999949,
+      -0.5409107102007606
+    ],
+    "handScale": [
+      1.45,
+      1.45,
+      1.45
+    ],
+    "fingerGap": 0.030799337224107874,
+    "trigger": {
+      "group": "ak-assembly",
+      "name": "trigger",
+      "material": "machined-steel",
+      "min": [
+        -0.007000000216066837,
+        -0.050999999046325684,
+        -0.0060640317387878895
+      ],
+      "max": [
+        0.007000000216066837,
+        0.026000000536441803,
+        0.02104543335735798
+      ],
+      "triangles": 44
+    },
+    "models": {
+      "ak": {
+        "meshes": 10,
+        "triangles": 2680
+      },
+      "m4": {
+        "meshes": 9,
+        "triangles": 3660
+      }
+    }
+  },
+  "status": "failed",
+  "failure": "Error: ak-seven-buckets {\"meshes\":8,\"triangles\":2920}"
+}

@@ -1,0 +1,205 @@
+{
+  "state": {
+    "phase": "playing",
+    "role": "attack",
+    "round": 1,
+    "score": {
+      "ct": 0,
+      "t": 0
+    },
+    "time": 104.8,
+    "coordinates": "metres; x east, y up, z south; north is -z",
+    "player": {
+      "pos": [
+        0,
+        0,
+        23
+      ],
+      "yaw": 0,
+      "hp": 100,
+      "armor": 100,
+      "onGround": true
+    },
+    "weapon": {
+      "id": "ak",
+      "ammo": 30,
+      "reserve": 90,
+      "reloading": false,
+      "shots": 0,
+      "spread": 0.0018
+    },
+    "bomb": {
+      "planted": false,
+      "site": null,
+      "time": 40,
+      "defuseProgress": 0
+    },
+    "hold": 0,
+    "sites": [
+      {
+        "id": "A",
+        "pos": [
+          19,
+          0,
+          -17
+        ]
+      },
+      {
+        "id": "B",
+        "pos": [
+          -19,
+          0,
+          -17
+        ]
+      }
+    ],
+    "bots": [
+      {
+        "name": "SENTINEL 01",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 02",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          -22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 03",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          0,
+          0,
+          -19
+        ]
+      },
+      {
+        "name": "SENTINEL 04",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -8
+        ]
+      }
+    ],
+    "result": null,
+    "audio": {
+      "state": "running",
+      "muted": false,
+      "paused": false,
+      "buffers": 0,
+      "voices": 0,
+      "played": 0,
+      "failed": 0
+    },
+    "assets": {
+      "quality": "high",
+      "textureSize": 1024,
+      "materials": {
+        "sets": 11,
+        "textureMB": 59.3,
+        "genMs": 893,
+        "decalMB": 0
+      },
+      "map": {
+        "staticDrawCalls": 22,
+        "triangles": 109478,
+        "emittedParts": 1900,
+        "materialSlots": 21,
+        "labelTextures": 1,
+        "groundTextures": 3,
+        "softProps": 7,
+        "facadeBays": 56,
+        "colliders": 79
+      },
+      "weapon": {
+        "models": {
+          "ak": {
+            "meshes": 10,
+            "triangles": 2680
+          },
+          "m4": {
+            "meshes": 9,
+            "triangles": 3660
+          }
+        },
+        "textureSets": [
+          "wood",
+          "fabric"
+        ],
+        "handTechnique": "Saltline Vv section loft with joint bisectors",
+        "muzzleQuads": 8,
+        "springs": 9,
+        "reload": "smootherstep position + quaternion keyframes"
+      },
+      "bot": {
+        "joints": 16,
+        "meshes": 1,
+        "triangles": 6952
+      },
+      "tracerPool": 48,
+      "activeTracers": 0,
+      "fx": {
+        "lit": 0,
+        "add": 0,
+        "tracers": 0,
+        "debris": 0,
+        "drawCalls": 5
+      },
+      "ground": {
+        "maskResolution": 512,
+        "detailResolution": 256,
+        "textures": 3,
+        "maskChannels": [
+          "relief",
+          "sand deposit",
+          "base grime",
+          "foot traffic"
+        ],
+        "extent": [
+          -45,
+          -45,
+          45,
+          45
+        ],
+        "physicalDisplacement": false,
+        "dry": true
+      }
+    },
+    "pipeline": {
+      "calls": 84,
+      "tris": 160564,
+      "geos": 41,
+      "tex": 83,
+      "programs": 60,
+      "res": [
+        1280,
+        720
+      ],
+      "scale": 1,
+      "advanced": true,
+      "softShadows": true
+    },
+    "render": {
+      "calls": 84,
+      "triangles": 160564,
+      "geometries": 41,
+      "textures": 83
+    },
+    "errors": []
+  },
+  "errors": []
+}

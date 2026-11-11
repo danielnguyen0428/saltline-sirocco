@@ -1,0 +1,592 @@
+{
+  "mode": "real-input plus isolated state fixtures",
+  "checks": [
+    {
+      "name": "boot-r180",
+      "passed": true
+    },
+    {
+      "name": "deploy-real-click",
+      "passed": true
+    },
+    {
+      "name": "both-sites-connected",
+      "passed": true,
+      "detail": [
+        {
+          "id": "A",
+          "path": 4,
+          "walkable": true
+        },
+        {
+          "id": "B",
+          "path": 3,
+          "walkable": true
+        }
+      ]
+    },
+    {
+      "name": "W-movement",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        18.542
+      ]
+    },
+    {
+      "name": "jump",
+      "passed": true
+    },
+    {
+      "name": "land",
+      "passed": true
+    },
+    {
+      "name": "world-wall-collision",
+      "passed": true,
+      "detail": [
+        -13.658,
+        0,
+        23
+      ]
+    },
+    {
+      "name": "fire-consumes-ammo",
+      "passed": true,
+      "detail": {
+        "id": "ak",
+        "ammo": 28,
+        "reserve": 90,
+        "reloading": false,
+        "shots": 2,
+        "spread": 0.002905
+      }
+    },
+    {
+      "name": "reload-starts",
+      "passed": true
+    },
+    {
+      "name": "reload-conserves-reserve",
+      "passed": true,
+      "detail": {
+        "id": "ak",
+        "ammo": 30,
+        "reserve": 88,
+        "reloading": false,
+        "shots": 2,
+        "spread": 0.0018
+      }
+    },
+    {
+      "name": "crouch-real-key",
+      "passed": true
+    },
+    {
+      "name": "crouch-held",
+      "passed": true
+    },
+    {
+      "name": "keyboard-look",
+      "passed": true
+    },
+    {
+      "name": "pause-freezes",
+      "passed": true,
+      "detail": 95.33
+    },
+    {
+      "name": "resume",
+      "passed": true
+    },
+    {
+      "name": "no-automatic-heal",
+      "passed": true,
+      "detail": 83.5
+    },
+    {
+      "name": "M4-fire",
+      "passed": true
+    },
+    {
+      "name": "head-body-damage-and-wall",
+      "passed": true,
+      "detail": {
+        "before": 100,
+        "damaged": 64,
+        "head": true,
+        "wallBlocked": true,
+        "alive": false
+      }
+    },
+    {
+      "name": "real-fire-hits-bot",
+      "passed": true
+    },
+    {
+      "name": "bot-reaction-delay",
+      "passed": true
+    },
+    {
+      "name": "bot-shoots-player",
+      "passed": true
+    },
+    {
+      "name": "walk-route-A",
+      "passed": true,
+      "detail": {
+        "distance": 0.09320831224843734,
+        "steps": 135
+      }
+    },
+    {
+      "name": "walk-route-B",
+      "passed": true,
+      "detail": {
+        "distance": 0.1586023775818197,
+        "steps": 147
+      }
+    },
+    {
+      "name": "plant-release-cancels",
+      "passed": true
+    },
+    {
+      "name": "plant-completes",
+      "passed": true,
+      "detail": {
+        "planted": true,
+        "pos": [
+          19,
+          0,
+          -17
+        ],
+        "site": "A",
+        "time": 39.783333333333346,
+        "defuseProgress": 0
+      }
+    },
+    {
+      "name": "fuse-explosion-wins",
+      "passed": true,
+      "detail": {
+        "winner": "t",
+        "reason": "Bom đã phát nổ"
+      }
+    },
+    {
+      "name": "next-round-reset",
+      "passed": true,
+      "detail": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 2,
+        "score": {
+          "ct": 0,
+          "t": 1
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 9,
+          "voices": 1,
+          "played": 49,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 56,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 144,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "defuse-release-cancels",
+      "passed": true
+    },
+    {
+      "name": "defuse-wins",
+      "passed": true,
+      "detail": {
+        "winner": "ct",
+        "reason": "Đã gỡ bom an toàn"
+      }
+    },
+    {
+      "name": "defend-fuse-loss",
+      "passed": true
+    },
+    {
+      "name": "attack-timeout-loss",
+      "passed": true
+    },
+    {
+      "name": "player-death-loss",
+      "passed": true
+    },
+    {
+      "name": "direct-player-death-event",
+      "passed": true
+    },
+    {
+      "name": "timer-minute-boundary",
+      "passed": true
+    },
+    {
+      "name": "defuser-change-resets",
+      "passed": true,
+      "detail": {
+        "before": 4,
+        "after": 0.1
+      }
+    },
+    {
+      "name": "unreachable-patrol-recovers",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "elimination-win",
+      "passed": true
+    },
+    {
+      "name": "bot-defuse-wins",
+      "passed": true
+    },
+    {
+      "name": "mute-button",
+      "passed": true
+    },
+    {
+      "name": "audio-unlocked-and-playing",
+      "passed": true,
+      "detail": {
+        "state": "running",
+        "muted": true,
+        "paused": false,
+        "buffers": 11,
+        "voices": 13,
+        "played": 92,
+        "failed": 0
+      }
+    },
+    {
+      "name": "audio-paused",
+      "passed": true
+    },
+    {
+      "name": "narrow-HUD-fit",
+      "passed": true
+    },
+    {
+      "name": "no-JavaScript-errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Waypoint heading and explicit placement isolate map/objective tests. Bot updates disabled for isolated player/objective checks.",
+    "Not a natural full-match victory or an acoustic quality assessment. Mobile captures check layout only."
+  ],
+  "finalState": {
+    "phase": "playing",
+    "role": "attack",
+    "round": 2,
+    "score": {
+      "ct": 5,
+      "t": 3
+    },
+    "time": 104.97,
+    "coordinates": "metres; x east, y up, z south; north is -z",
+    "player": {
+      "pos": [
+        0,
+        0,
+        23
+      ],
+      "yaw": 0,
+      "hp": 100,
+      "armor": 100,
+      "onGround": true
+    },
+    "weapon": {
+      "id": "ak",
+      "ammo": 30,
+      "reserve": 90,
+      "reloading": false,
+      "shots": 0,
+      "spread": 0.0018
+    },
+    "bomb": {
+      "planted": false,
+      "site": null,
+      "time": 40,
+      "defuseProgress": 0
+    },
+    "hold": 0,
+    "sites": [
+      {
+        "id": "A",
+        "pos": [
+          19,
+          0,
+          -17
+        ]
+      },
+      {
+        "id": "B",
+        "pos": [
+          -19,
+          0,
+          -17
+        ]
+      }
+    ],
+    "bots": [
+      {
+        "name": "SENTINEL 01",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 02",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          -22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 03",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          0,
+          0,
+          -19
+        ]
+      },
+      {
+        "name": "SENTINEL 04",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -8
+        ]
+      }
+    ],
+    "result": null,
+    "audio": {
+      "state": "running",
+      "muted": true,
+      "paused": false,
+      "buffers": 11,
+      "voices": 13,
+      "played": 92,
+      "failed": 0
+    },
+    "assets": {
+      "quality": "high",
+      "textureSize": 1024,
+      "materials": {
+        "sets": 9,
+        "textureMB": 54.3,
+        "genMs": 56,
+        "decalMB": 0
+      },
+      "map": {
+        "staticDrawCalls": 15,
+        "triangles": 84948,
+        "emittedParts": 1906,
+        "materialSlots": 15,
+        "labelTextures": 1,
+        "facadeBays": 56,
+        "colliders": 79
+      },
+      "weapon": {
+        "models": {
+          "ak": {
+            "meshes": 8,
+            "triangles": 2260
+          },
+          "m4": {
+            "meshes": 7,
+            "triangles": 3184
+          }
+        },
+        "textureSets": [
+          "gunmetal",
+          "metal",
+          "polymer",
+          "anodized",
+          "wood",
+          "fabric"
+        ]
+      },
+      "bot": {
+        "joints": 12,
+        "meshes": 25,
+        "triangles": 2264
+      },
+      "tracerPool": 32,
+      "activeTracers": 0
+    },
+    "render": {
+      "calls": 233,
+      "triangles": 190396,
+      "geometries": 151,
+      "textures": 32
+    },
+    "errors": []
+  },
+  "status": "passed"
+}

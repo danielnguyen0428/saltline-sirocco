@@ -1,0 +1,24 @@
+{
+  "index.html": {
+    "url": "https://www.meowsolo.com/gameaaa/",
+    "status": 200,
+    "contentType": "text/html",
+    "sha256": "79b9b9331d2cab861a4b121352f34aa2126635e48039f4a9f3ae91ef80fd331e"
+  },
+  "game.js": {
+    "url": "https://www.meowsolo.com/gameaaa/game.js",
+    "status": 200,
+    "contentType": "application/javascript",
+    "sha256": "8d0057dc4d6dac77e20be2ef1f2b623e19346b5803fde1b3dbabbab508d75d9d"
+  },
+  "styles.css": {
+    "url": "https://www.meowsolo.com/gameaaa/styles.css",
+    "status": 200,
+    "contentType": "text/css",
+    "sha256": "e8de46e058377fd7151396f1d4b53b321cb008856570d7535172523cb4d5fdf9"
+  },
+  "existingPathsMatched": [
+    "/",
+    "/cafe/"
+  ]
+}

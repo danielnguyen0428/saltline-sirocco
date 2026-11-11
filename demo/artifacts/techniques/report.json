@@ -1,0 +1,2161 @@
+{
+  "reference": "TECHNIQUES.md",
+  "checks": [
+    {
+      "name": "original-HDR-PCSS",
+      "passed": true,
+      "detail": {
+        "calls": 84,
+        "tris": 160564,
+        "geos": 41,
+        "tex": 83,
+        "programs": 61,
+        "res": [
+          1280,
+          720
+        ],
+        "scale": 1,
+        "advanced": true,
+        "softShadows": true,
+        "passes": [
+          {
+            "name": "world",
+            "width": 1280,
+            "height": 720,
+            "samples": 4,
+            "hdr": true,
+            "depth": true,
+            "tuning": {}
+          },
+          {
+            "name": "post-depthcopy",
+            "width": 1280,
+            "height": 720,
+            "samples": 0,
+            "hdr": false,
+            "depth": true,
+            "tuning": {}
+          },
+          {
+            "name": "viewmodel",
+            "width": 1280,
+            "height": 720,
+            "samples": 4,
+            "hdr": true,
+            "depth": true,
+            "tuning": {}
+          },
+          {
+            "name": "post-depthhalf",
+            "width": 640,
+            "height": 360,
+            "samples": 0,
+            "hdr": false,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-ao",
+            "width": 640,
+            "height": 360,
+            "samples": 0,
+            "hdr": false,
+            "depth": false,
+            "tuning": {
+              "uRadius": 0.65,
+              "uIntensity": 1.25
+            }
+          },
+          {
+            "name": "post-blur-ao",
+            "width": 640,
+            "height": 360,
+            "samples": 0,
+            "hdr": false,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-blur-ao",
+            "width": 640,
+            "height": 360,
+            "samples": 0,
+            "hdr": false,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-vol",
+            "width": 640,
+            "height": 360,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {
+              "uSigma": 0.0018,
+              "uFarHaze": 0.22,
+              "uMaxDist": 170
+            }
+          },
+          {
+            "name": "post-blur-vol",
+            "width": 640,
+            "height": 360,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-blur-vol",
+            "width": 640,
+            "height": 360,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-composite",
+            "width": 1280,
+            "height": 720,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {
+              "uAoStrength": 0.7
+            }
+          },
+          {
+            "name": "post-motion",
+            "width": 1280,
+            "height": 720,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-down",
+            "width": 640,
+            "height": 360,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-down",
+            "width": 320,
+            "height": 180,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-down",
+            "width": 160,
+            "height": 90,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-down",
+            "width": 80,
+            "height": 45,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-down",
+            "width": 40,
+            "height": 22,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-down",
+            "width": 20,
+            "height": 11,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-up",
+            "width": 40,
+            "height": 22,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {
+              "uMix": 0.62
+            }
+          },
+          {
+            "name": "post-up",
+            "width": 80,
+            "height": 45,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {
+              "uMix": 0.62
+            }
+          },
+          {
+            "name": "post-up",
+            "width": 160,
+            "height": 90,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {
+              "uMix": 0.62
+            }
+          },
+          {
+            "name": "post-up",
+            "width": 320,
+            "height": 180,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {
+              "uMix": 0.62
+            }
+          },
+          {
+            "name": "post-up",
+            "width": 640,
+            "height": 360,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {
+              "uMix": 0.62
+            }
+          },
+          {
+            "name": "post-streak",
+            "width": 160,
+            "height": 90,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-streak",
+            "width": 160,
+            "height": 90,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-adapt",
+            "width": 1,
+            "height": 1,
+            "samples": 0,
+            "hdr": true,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-grade",
+            "width": 1280,
+            "height": 720,
+            "samples": 0,
+            "hdr": false,
+            "depth": false,
+            "tuning": {}
+          },
+          {
+            "name": "post-final",
+            "width": 1280,
+            "height": 720,
+            "samples": 0,
+            "hdr": false,
+            "depth": false,
+            "tuning": {}
+          }
+        ]
+      }
+    },
+    {
+      "name": "actual-post-pass-graph",
+      "passed": true,
+      "detail": [
+        "world",
+        "post-depthcopy",
+        "viewmodel",
+        "post-depthhalf",
+        "post-ao",
+        "post-blur-ao",
+        "post-blur-ao",
+        "post-vol",
+        "post-blur-vol",
+        "post-blur-vol",
+        "post-composite",
+        "post-motion",
+        "post-down",
+        "post-down",
+        "post-down",
+        "post-down",
+        "post-down",
+        "post-down",
+        "post-up",
+        "post-up",
+        "post-up",
+        "post-up",
+        "post-up",
+        "post-streak",
+        "post-streak",
+        "post-adapt",
+        "post-grade",
+        "post-final"
+      ]
+    },
+    {
+      "name": "post-tuning-reaches-shaders",
+      "passed": true
+    },
+    {
+      "name": "HDR-depth-MSAA",
+      "passed": true,
+      "detail": {
+        "name": "world",
+        "width": 1280,
+        "height": 720,
+        "samples": 4,
+        "hdr": true,
+        "depth": true,
+        "tuning": {}
+      }
+    },
+    {
+      "name": "frame-budget",
+      "passed": true,
+      "detail": {
+        "calls": 84,
+        "triangles": 160564,
+        "geometries": 41,
+        "textures": 83
+      }
+    },
+    {
+      "name": "valid-geometry",
+      "passed": true,
+      "detail": {
+        "invalid": 0,
+        "degenerate": 0,
+        "normalErrors": 0,
+        "geometries": 57,
+        "vertices": 381239,
+        "dynamicTemplates": 3
+      }
+    },
+    {
+      "name": "shared-rigid-skin-independent-skeleton",
+      "passed": true,
+      "detail": {
+        "shared": 1,
+        "skeletons": 4,
+        "materialArrays": 4,
+        "skinned": true,
+        "bad": 0,
+        "delta": 0.2200305697445322,
+        "bones": 16,
+        "groups": 7
+      }
+    },
+    {
+      "name": "loft-spring-quad-weapon",
+      "passed": true,
+      "detail": {
+        "models": {
+          "ak": {
+            "meshes": 10,
+            "triangles": 2680
+          },
+          "m4": {
+            "meshes": 9,
+            "triangles": 3660
+          }
+        },
+        "textureSets": [
+          "wood",
+          "fabric"
+        ],
+        "handTechnique": "Saltline Vv section loft with joint bisectors",
+        "muzzleQuads": 8,
+        "springs": 9,
+        "reload": "smootherstep position + quaternion keyframes"
+      }
+    },
+    {
+      "name": "ground-mask-softprops-atlas",
+      "passed": true,
+      "detail": {
+        "ground": {
+          "maskResolution": 512,
+          "detailResolution": 256,
+          "textures": 3,
+          "maskChannels": [
+            "relief",
+            "sand deposit",
+            "base grime",
+            "foot traffic"
+          ],
+          "extent": [
+            -45,
+            -45,
+            45,
+            45
+          ],
+          "physicalDisplacement": false,
+          "dry": true
+        },
+        "map": {
+          "staticDrawCalls": 22,
+          "triangles": 109478,
+          "emittedParts": 1900,
+          "materialSlots": 21,
+          "labelTextures": 1,
+          "groundTextures": 3,
+          "softProps": 7,
+          "facadeBays": 56,
+          "colliders": 79
+        }
+      }
+    },
+    {
+      "name": "ground-CPU-mask-queries",
+      "passed": true,
+      "detail": [
+        {
+          "x": 0,
+          "z": 23,
+          "values": [
+            0.43063180827886716,
+            0,
+            0,
+            0.8993899782135076
+          ],
+          "surface": "concrete",
+          "wet": 0
+        },
+        {
+          "x": 5.1,
+          "z": 10,
+          "values": [
+            0.749907044299201,
+            1,
+            0.5504836601307185,
+            0
+          ],
+          "surface": "dirt",
+          "wet": 0
+        },
+        {
+          "x": 100,
+          "z": 100,
+          "values": [
+            0.5254901882352941,
+            0.31764705490196077,
+            0,
+            0
+          ],
+          "surface": "concrete",
+          "wet": 0
+        },
+        {
+          "x": -100,
+          "z": -100,
+          "values": [
+            0.4823529411764706,
+            0.2,
+            0,
+            0
+          ],
+          "surface": "concrete",
+          "wet": 0
+        }
+      ]
+    },
+    {
+      "name": "controller-walk-motion",
+      "passed": true,
+      "detail": [
+        {
+          "pos": [
+            0,
+            0,
+            16.769999999999996
+          ],
+          "legs": [
+            0.38431936057647903,
+            -0.384319360576479
+          ]
+        },
+        {
+          "pos": [
+            0,
+            0,
+            16.539999999999992
+          ],
+          "legs": [
+            0.4223866637068494,
+            -0.42238666370684946
+          ]
+        },
+        {
+          "pos": [
+            0,
+            0,
+            16.309999999999988
+          ],
+          "legs": [
+            0.07990521923596514,
+            -0.0799052192359654
+          ]
+        },
+        {
+          "pos": [
+            0,
+            0,
+            16.079999999999984
+          ],
+          "legs": [
+            -0.3345667346894369,
+            0.3345667346894367
+          ]
+        },
+        {
+          "pos": [
+            0,
+            0,
+            15.84999999999998
+          ],
+          "legs": [
+            -0.4476111985568905,
+            0.44761119855689063
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spring-recoil-impulse",
+      "passed": true,
+      "detail": {
+        "springs": {
+          "recoilZ": {
+            "position": 0.013668980660236193,
+            "velocity": -0.29888263059663345
+          },
+          "recoilPitch": {
+            "position": 0.022209629740909464,
+            "velocity": -0.3393815961305368
+          },
+          "recoilYaw": {
+            "position": 0.003139078555534672,
+            "velocity": -0.012401160015053366
+          },
+          "recoilRoll": {
+            "position": -0.0016855253885970684,
+            "velocity": -0.0024979497089871196
+          },
+          "swayYaw": {
+            "position": 0,
+            "velocity": 0
+          },
+          "swayPitch": {
+            "position": 0,
+            "velocity": 0
+          },
+          "jumpY": {
+            "position": 0,
+            "velocity": 0
+          },
+          "jumpPitch": {
+            "position": 0,
+            "velocity": 0
+          },
+          "reloadBump": {
+            "position": 0,
+            "velocity": 0
+          }
+        },
+        "finger": 0.9999546000702375,
+        "magazine": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "magazine-detaches-reseats",
+      "passed": true,
+      "detail": [
+        {
+          "mag": [
+            0,
+            0,
+            0
+          ],
+          "ammo": 27,
+          "reloading": true
+        },
+        {
+          "mag": [
+            -0.12916874088850797,
+            -0.3679165935035868,
+            0.14216140814354475
+          ],
+          "ammo": 27,
+          "reloading": true
+        },
+        {
+          "mag": [
+            0,
+            0,
+            0
+          ],
+          "ammo": 27,
+          "reloading": true
+        },
+        {
+          "mag": [
+            0,
+            0,
+            0
+          ],
+          "ammo": 30,
+          "reloading": false
+        }
+      ]
+    },
+    {
+      "name": "springs-settle",
+      "passed": true,
+      "detail": {
+        "recoilZ": {
+          "position": -1.5898601246453285e-33,
+          "velocity": 2.0686619828677393e-31
+        },
+        "recoilPitch": {
+          "position": 2.2299478257664656e-28,
+          "velocity": 9.9028793057873e-28
+        },
+        "recoilYaw": {
+          "position": 9.416787282041268e-25,
+          "velocity": -1.320060987797109e-23
+        },
+        "recoilRoll": {
+          "position": 6.38284587757806e-23,
+          "velocity": -1.0635417516809465e-21
+        },
+        "swayYaw": {
+          "position": 0,
+          "velocity": 0
+        },
+        "swayPitch": {
+          "position": 0,
+          "velocity": 0
+        },
+        "jumpY": {
+          "position": 0,
+          "velocity": 0
+        },
+        "jumpPitch": {
+          "position": 0,
+          "velocity": 0
+        },
+        "reloadBump": {
+          "position": 5.529816025461444e-21,
+          "velocity": -5.426815019318039e-20
+        }
+      }
+    },
+    {
+      "name": "five-batch-FX-bounded",
+      "passed": true,
+      "detail": {
+        "before": {
+          "geometries": 54,
+          "textures": 77
+        },
+        "after": {
+          "geometries": 54,
+          "textures": 77
+        },
+        "peak": {
+          "lit": 77,
+          "add": 77,
+          "tracers": 48,
+          "debris": 30,
+          "drawCalls": 5
+        },
+        "end": {
+          "lit": 0,
+          "add": 0,
+          "tracers": 0,
+          "debris": 0,
+          "drawCalls": 5
+        },
+        "batches": 5
+      }
+    },
+    {
+      "name": "DSP-reverb-stems-master",
+      "passed": true,
+      "detail": {
+        "state": "running",
+        "muted": false,
+        "paused": false,
+        "buffers": 51,
+        "voices": 45,
+        "capacity": 45,
+        "reverb": [
+          true,
+          true
+        ],
+        "stems": 5,
+        "pending": 0,
+        "compressor": true,
+        "softClip": true,
+        "played": 138,
+        "failed": 0,
+        "stolen": 75,
+        "peakVoices": 45,
+        "generated": 51
+      }
+    },
+    {
+      "name": "result-muzzle-TTL",
+      "passed": true,
+      "detail": {
+        "phase": "result",
+        "visible": false
+      }
+    },
+    {
+      "name": "round-clears-audio-voices",
+      "passed": true,
+      "detail": {
+        "before": 2,
+        "after": 0,
+        "stems": 5
+      }
+    },
+    {
+      "name": "resize-HDR",
+      "passed": true
+    },
+    {
+      "name": "no-post",
+      "passed": true,
+      "detail": {
+        "render": {
+          "calls": 105,
+          "triangles": 297618,
+          "geometries": 40,
+          "textures": 55
+        },
+        "pipeline": {
+          "calls": 105,
+          "tris": 297618,
+          "geos": 40,
+          "tex": 55,
+          "programs": 45,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": false,
+          "softShadows": true,
+          "passes": [
+            {
+              "name": "world",
+              "width": 1280,
+              "height": 720,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "viewmodel",
+              "width": 1280,
+              "height": 720,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            }
+          ]
+        },
+        "ground": {
+          "maskResolution": 512,
+          "detailResolution": 256,
+          "textures": 3,
+          "maskChannels": [
+            "relief",
+            "sand deposit",
+            "base grime",
+            "foot traffic"
+          ],
+          "extent": [
+            -45,
+            -45,
+            45,
+            45
+          ],
+          "physicalDisplacement": false,
+          "dry": true
+        }
+      }
+    },
+    {
+      "name": "low",
+      "passed": true,
+      "detail": {
+        "render": {
+          "calls": 80,
+          "triangles": 160560,
+          "geometries": 41,
+          "textures": 80
+        },
+        "pipeline": {
+          "calls": 80,
+          "tris": 160560,
+          "geos": 41,
+          "tex": 80,
+          "programs": 58,
+          "res": [
+            896,
+            504
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "passes": [
+            {
+              "name": "world",
+              "width": 896,
+              "height": 504,
+              "samples": 0,
+              "hdr": true,
+              "depth": true,
+              "tuning": {}
+            },
+            {
+              "name": "post-depthcopy",
+              "width": 896,
+              "height": 504,
+              "samples": 0,
+              "hdr": false,
+              "depth": true,
+              "tuning": {}
+            },
+            {
+              "name": "viewmodel",
+              "width": 896,
+              "height": 504,
+              "samples": 0,
+              "hdr": true,
+              "depth": true,
+              "tuning": {}
+            },
+            {
+              "name": "post-depthhalf",
+              "width": 448,
+              "height": 252,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-vol",
+              "width": 448,
+              "height": 252,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uSigma": 0.0018,
+                "uFarHaze": 0.22,
+                "uMaxDist": 170
+              }
+            },
+            {
+              "name": "post-blur-vol",
+              "width": 448,
+              "height": 252,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-blur-vol",
+              "width": 448,
+              "height": 252,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-composite",
+              "width": 896,
+              "height": 504,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uAoStrength": 0.7
+              }
+            },
+            {
+              "name": "post-down",
+              "width": 448,
+              "height": 252,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 224,
+              "height": 126,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 112,
+              "height": 63,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 56,
+              "height": 31,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 28,
+              "height": 15,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 14,
+              "height": 7,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-up",
+              "width": 28,
+              "height": 15,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-up",
+              "width": 56,
+              "height": 31,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-up",
+              "width": 112,
+              "height": 63,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-up",
+              "width": 224,
+              "height": 126,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-up",
+              "width": 448,
+              "height": 252,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-streak",
+              "width": 112,
+              "height": 63,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-streak",
+              "width": 112,
+              "height": 63,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-adapt",
+              "width": 1,
+              "height": 1,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-grade",
+              "width": 896,
+              "height": 504,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-final",
+              "width": 1280,
+              "height": 720,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            }
+          ]
+        },
+        "ground": {
+          "maskResolution": 256,
+          "detailResolution": 256,
+          "textures": 3,
+          "maskChannels": [
+            "relief",
+            "sand deposit",
+            "base grime",
+            "foot traffic"
+          ],
+          "extent": [
+            -45,
+            -45,
+            45,
+            45
+          ],
+          "physicalDisplacement": false,
+          "dry": true
+        }
+      }
+    },
+    {
+      "name": "seed-993",
+      "passed": true,
+      "detail": {
+        "render": {
+          "calls": 130,
+          "triangles": 297643,
+          "geometries": 41,
+          "textures": 82
+        },
+        "pipeline": {
+          "calls": 130,
+          "tris": 297643,
+          "geos": 41,
+          "tex": 82,
+          "programs": 60,
+          "res": [
+            1088,
+            612
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "passes": [
+            {
+              "name": "world",
+              "width": 1088,
+              "height": 612,
+              "samples": 2,
+              "hdr": true,
+              "depth": true,
+              "tuning": {}
+            },
+            {
+              "name": "post-depthcopy",
+              "width": 1088,
+              "height": 612,
+              "samples": 0,
+              "hdr": false,
+              "depth": true,
+              "tuning": {}
+            },
+            {
+              "name": "viewmodel",
+              "width": 1088,
+              "height": 612,
+              "samples": 2,
+              "hdr": true,
+              "depth": true,
+              "tuning": {}
+            },
+            {
+              "name": "post-depthhalf",
+              "width": 544,
+              "height": 306,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-ao",
+              "width": 544,
+              "height": 306,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {
+                "uRadius": 0.65,
+                "uIntensity": 1.25
+              }
+            },
+            {
+              "name": "post-blur-ao",
+              "width": 544,
+              "height": 306,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-blur-ao",
+              "width": 544,
+              "height": 306,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-vol",
+              "width": 544,
+              "height": 306,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uSigma": 0.0018,
+                "uFarHaze": 0.22,
+                "uMaxDist": 170
+              }
+            },
+            {
+              "name": "post-blur-vol",
+              "width": 544,
+              "height": 306,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-blur-vol",
+              "width": 544,
+              "height": 306,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-composite",
+              "width": 1088,
+              "height": 612,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uAoStrength": 0.7
+              }
+            },
+            {
+              "name": "post-down",
+              "width": 544,
+              "height": 306,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 272,
+              "height": 153,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 136,
+              "height": 76,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 68,
+              "height": 38,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 34,
+              "height": 19,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-down",
+              "width": 17,
+              "height": 9,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-up",
+              "width": 34,
+              "height": 19,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-up",
+              "width": 68,
+              "height": 38,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-up",
+              "width": 136,
+              "height": 76,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-up",
+              "width": 272,
+              "height": 153,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-up",
+              "width": 544,
+              "height": 306,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {
+                "uMix": 0.62
+              }
+            },
+            {
+              "name": "post-streak",
+              "width": 136,
+              "height": 76,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-streak",
+              "width": 136,
+              "height": 76,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-adapt",
+              "width": 1,
+              "height": 1,
+              "samples": 0,
+              "hdr": true,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-grade",
+              "width": 1088,
+              "height": 612,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            },
+            {
+              "name": "post-final",
+              "width": 1280,
+              "height": 720,
+              "samples": 0,
+              "hdr": false,
+              "depth": false,
+              "tuning": {}
+            }
+          ]
+        },
+        "ground": {
+          "maskResolution": 512,
+          "detailResolution": 256,
+          "textures": 3,
+          "maskChannels": [
+            "relief",
+            "sand deposit",
+            "base grime",
+            "foot traffic"
+          ],
+          "extent": [
+            -45,
+            -45,
+            45,
+            45
+          ],
+          "physicalDisplacement": false,
+          "dry": true
+        }
+      }
+    },
+    {
+      "name": "no-runtime-errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "final",
+    "clay",
+    "normals",
+    "post-depthhalf",
+    "post-ao",
+    "post-vol",
+    "ground-mask",
+    "site-a",
+    "bot-front",
+    "walk-0",
+    "walk-1",
+    "walk-2",
+    "walk-3",
+    "walk-4",
+    "fire",
+    "reload-reach",
+    "reload-out",
+    "reload-in",
+    "reload-done",
+    "m4",
+    "explosion",
+    "narrow",
+    "no-post",
+    "low",
+    "seed-993"
+  ],
+  "limits": [
+    "Objective tests use isolated fixtures.",
+    "Wall-clock intervals are not GPU timings.",
+    "FX random variations are not used for pixel equality."
+  ],
+  "state": {
+    "phase": "playing",
+    "role": "attack",
+    "round": 1,
+    "score": {
+      "ct": 0,
+      "t": 0
+    },
+    "time": 104.78,
+    "coordinates": "metres; x east, y up, z south; north is -z",
+    "player": {
+      "pos": [
+        0,
+        0,
+        23
+      ],
+      "yaw": 0,
+      "hp": 100,
+      "armor": 100,
+      "onGround": true
+    },
+    "weapon": {
+      "id": "ak",
+      "ammo": 30,
+      "reserve": 90,
+      "reloading": false,
+      "shots": 0,
+      "spread": 0.0018
+    },
+    "bomb": {
+      "planted": false,
+      "site": null,
+      "time": 40,
+      "defuseProgress": 0
+    },
+    "hold": 0,
+    "sites": [
+      {
+        "id": "A",
+        "pos": [
+          19,
+          0,
+          -17
+        ]
+      },
+      {
+        "id": "B",
+        "pos": [
+          -19,
+          0,
+          -17
+        ]
+      }
+    ],
+    "bots": [
+      {
+        "name": "SENTINEL 01",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 02",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          -22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 03",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          0,
+          0,
+          -19
+        ]
+      },
+      {
+        "name": "SENTINEL 04",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -8
+        ]
+      }
+    ],
+    "result": null,
+    "audio": {
+      "state": "running",
+      "muted": false,
+      "paused": false,
+      "buffers": 49,
+      "voices": 0,
+      "capacity": 45,
+      "reverb": [
+        true,
+        true
+      ],
+      "stems": 0,
+      "pending": 2,
+      "compressor": true,
+      "softClip": true,
+      "played": 0,
+      "failed": 0,
+      "stolen": 0,
+      "peakVoices": 0,
+      "generated": 49
+    },
+    "assets": {
+      "quality": "high",
+      "textureSize": 1024,
+      "materials": {
+        "sets": 11,
+        "textureMB": 59.3,
+        "genMs": 139,
+        "decalMB": 0
+      },
+      "map": {
+        "staticDrawCalls": 22,
+        "triangles": 109478,
+        "emittedParts": 1900,
+        "materialSlots": 21,
+        "labelTextures": 1,
+        "groundTextures": 3,
+        "softProps": 7,
+        "facadeBays": 56,
+        "colliders": 79
+      },
+      "weapon": {
+        "models": {
+          "ak": {
+            "meshes": 10,
+            "triangles": 2680
+          },
+          "m4": {
+            "meshes": 9,
+            "triangles": 3660
+          }
+        },
+        "textureSets": [
+          "wood",
+          "fabric"
+        ],
+        "handTechnique": "Saltline Vv section loft with joint bisectors",
+        "muzzleQuads": 8,
+        "springs": 9,
+        "reload": "smootherstep position + quaternion keyframes"
+      },
+      "bot": {
+        "joints": 16,
+        "meshes": 1,
+        "triangles": 6952
+      },
+      "tracerPool": 48,
+      "activeTracers": 0,
+      "fx": {
+        "lit": 0,
+        "add": 0,
+        "tracers": 0,
+        "debris": 0,
+        "drawCalls": 5
+      },
+      "ground": {
+        "maskResolution": 512,
+        "detailResolution": 256,
+        "textures": 3,
+        "maskChannels": [
+          "relief",
+          "sand deposit",
+          "base grime",
+          "foot traffic"
+        ],
+        "extent": [
+          -45,
+          -45,
+          45,
+          45
+        ],
+        "physicalDisplacement": false,
+        "dry": true
+      }
+    },
+    "pipeline": {
+      "calls": 84,
+      "tris": 160564,
+      "geos": 41,
+      "tex": 83,
+      "programs": 61,
+      "res": [
+        1280,
+        720
+      ],
+      "scale": 1,
+      "advanced": true,
+      "softShadows": true,
+      "passes": [
+        {
+          "name": "world",
+          "width": 1280,
+          "height": 720,
+          "samples": 4,
+          "hdr": true,
+          "depth": true,
+          "tuning": {}
+        },
+        {
+          "name": "post-depthcopy",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": false,
+          "depth": true,
+          "tuning": {}
+        },
+        {
+          "name": "viewmodel",
+          "width": 1280,
+          "height": 720,
+          "samples": 4,
+          "hdr": true,
+          "depth": true,
+          "tuning": {}
+        },
+        {
+          "name": "post-depthhalf",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-ao",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {
+            "uRadius": 0.65,
+            "uIntensity": 1.25
+          }
+        },
+        {
+          "name": "post-blur-ao",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-blur-ao",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-vol",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uSigma": 0.0018,
+            "uFarHaze": 0.22,
+            "uMaxDist": 170
+          }
+        },
+        {
+          "name": "post-blur-vol",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-blur-vol",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-composite",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uAoStrength": 0.7
+          }
+        },
+        {
+          "name": "post-motion",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 320,
+          "height": 180,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 160,
+          "height": 90,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 80,
+          "height": 45,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 40,
+          "height": 22,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 20,
+          "height": 11,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-up",
+          "width": 40,
+          "height": 22,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-up",
+          "width": 80,
+          "height": 45,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-up",
+          "width": 160,
+          "height": 90,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-up",
+          "width": 320,
+          "height": 180,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-up",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-streak",
+          "width": 160,
+          "height": 90,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-streak",
+          "width": 160,
+          "height": 90,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-adapt",
+          "width": 1,
+          "height": 1,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-grade",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-final",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        }
+      ]
+    },
+    "render": {
+      "calls": 84,
+      "triangles": 160564,
+      "geometries": 41,
+      "textures": 83
+    },
+    "errors": []
+  },
+  "frameSamples": [
+    {
+      "calls": 84,
+      "triangles": 160564,
+      "geometries": 41,
+      "textures": 83
+    },
+    {
+      "calls": 84,
+      "triangles": 160564,
+      "geometries": 41,
+      "textures": 83
+    },
+    {
+      "calls": 84,
+      "triangles": 160564,
+      "geometries": 41,
+      "textures": 83
+    },
+    {
+      "calls": 84,
+      "triangles": 160564,
+      "geometries": 41,
+      "textures": 83
+    },
+    {
+      "calls": 131,
+      "triangles": 297644,
+      "geometries": 41,
+      "textures": 83
+    },
+    {
+      "calls": 131,
+      "triangles": 297644,
+      "geometries": 41,
+      "textures": 83
+    }
+  ],
+  "renderTargets": [
+    {
+      "width": 1280,
+      "height": 720,
+      "type": "HalfFloat",
+      "samples": 4,
+      "depth": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "type": "other",
+      "samples": 0,
+      "depth": true
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "type": "other",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "type": "other",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "type": "other",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 320,
+      "height": 180,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 160,
+      "height": 90,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 80,
+      "height": 45,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 40,
+      "height": 22,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 20,
+      "height": 11,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 40,
+      "height": 22,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 80,
+      "height": 45,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 160,
+      "height": 90,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 320,
+      "height": 180,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 160,
+      "height": 90,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 160,
+      "height": 90,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "type": "other",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "type": "HalfFloat",
+      "samples": 0,
+      "depth": false
+    }
+  ],
+  "status": "passed"
+}

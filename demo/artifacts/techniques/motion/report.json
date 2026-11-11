@@ -1,0 +1,663 @@
+{
+  "status": "passed",
+  "mode": "unpaused requestAnimationFrame; actual keyboard fire/reload/walk/jump; LOS fixture suppresses combat during bot patrol",
+  "samples": [
+    {
+      "time": 0.7000000000000005,
+      "pos": [
+        0,
+        0,
+        16.811666666666646
+      ],
+      "legs": [
+        -0.42414447240569136,
+        0.42414447240569136
+      ]
+    },
+    {
+      "time": 1.0666666666666678,
+      "pos": [
+        0,
+        0,
+        15.968333333333298
+      ],
+      "legs": [
+        0.29231414605158906,
+        -0.2923141460515891
+      ]
+    },
+    {
+      "time": 1.6833333333333322,
+      "pos": [
+        0,
+        0,
+        14.54999999999994
+      ],
+      "legs": [
+        0.35246873125885153,
+        -0.35246873125885103
+      ]
+    },
+    {
+      "time": 2.166666666666664,
+      "pos": [
+        0,
+        0,
+        13.59166666666659
+      ],
+      "legs": [
+        0,
+        0
+      ]
+    },
+    {
+      "time": 2.533333333333329,
+      "pos": [
+        0,
+        0,
+        13.59166666666659
+      ],
+      "legs": [
+        0,
+        0
+      ]
+    },
+    {
+      "time": 2.9833333333333276,
+      "pos": [
+        0,
+        0,
+        13.59166666666659
+      ],
+      "legs": [
+        0,
+        0
+      ]
+    },
+    {
+      "time": 3.433333333333326,
+      "pos": [
+        0,
+        0,
+        13.59166666666659
+      ],
+      "legs": [
+        0,
+        0
+      ]
+    },
+    {
+      "time": 3.866666666666658,
+      "pos": [
+        2.107497876442373e-17,
+        0,
+        14.1666666666666
+      ],
+      "legs": [
+        0.24544188618349394,
+        -0.245441886183494
+      ]
+    }
+  ],
+  "state": {
+    "phase": "playing",
+    "role": "attack",
+    "round": 1,
+    "score": {
+      "ct": 0,
+      "t": 0
+    },
+    "time": 94.2,
+    "coordinates": "metres; x east, y up, z south; north is -z",
+    "player": {
+      "pos": [
+        -0.027,
+        0,
+        16.902
+      ],
+      "yaw": 0.004422353945783868,
+      "hp": 100,
+      "armor": 100,
+      "onGround": true
+    },
+    "weapon": {
+      "id": "ak",
+      "ammo": 30,
+      "reserve": 86,
+      "reloading": false,
+      "shots": 4,
+      "spread": 0.0018
+    },
+    "bomb": {
+      "planted": false,
+      "site": null,
+      "time": 40,
+      "defuseProgress": 0
+    },
+    "hold": 0,
+    "sites": [
+      {
+        "id": "A",
+        "pos": [
+          19,
+          0,
+          -17
+        ]
+      },
+      {
+        "id": "B",
+        "pos": [
+          -19,
+          0,
+          -17
+        ]
+      }
+    ],
+    "bots": [
+      {
+        "name": "SENTINEL 01",
+        "alive": false,
+        "hp": 0,
+        "pos": [
+          2.107497876442373e-17,
+          0,
+          14.1666666666666
+        ]
+      },
+      {
+        "name": "SENTINEL 02",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          -22.987800453764436,
+          0,
+          -18.82724197949713
+        ]
+      },
+      {
+        "name": "SENTINEL 03",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          -1.5110229193156357,
+          0,
+          -18.73938371421965
+        ]
+      },
+      {
+        "name": "SENTINEL 04",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          20.676412304471768,
+          0,
+          -8.774097360386435
+        ]
+      }
+    ],
+    "result": null,
+    "audio": {
+      "state": "running",
+      "muted": false,
+      "paused": false,
+      "buffers": 51,
+      "voices": 1,
+      "capacity": 45,
+      "reverb": [
+        true,
+        true
+      ],
+      "stems": 5,
+      "pending": 0,
+      "compressor": true,
+      "softClip": true,
+      "played": 26,
+      "failed": 0,
+      "stolen": 0,
+      "peakVoices": 10,
+      "generated": 51
+    },
+    "assets": {
+      "quality": "medium",
+      "textureSize": 1024,
+      "materials": {
+        "sets": 11,
+        "textureMB": 59.3,
+        "genMs": 84,
+        "decalMB": 0
+      },
+      "map": {
+        "staticDrawCalls": 22,
+        "triangles": 109478,
+        "emittedParts": 1900,
+        "materialSlots": 21,
+        "labelTextures": 1,
+        "groundTextures": 3,
+        "softProps": 7,
+        "facadeBays": 56,
+        "colliders": 79
+      },
+      "weapon": {
+        "models": {
+          "ak": {
+            "meshes": 10,
+            "triangles": 2680
+          },
+          "m4": {
+            "meshes": 9,
+            "triangles": 3660
+          }
+        },
+        "textureSets": [
+          "wood",
+          "fabric"
+        ],
+        "handTechnique": "Saltline Vv section loft with joint bisectors",
+        "muzzleQuads": 8,
+        "springs": 9,
+        "reload": "smootherstep position + quaternion keyframes"
+      },
+      "bot": {
+        "joints": 16,
+        "meshes": 1,
+        "triangles": 6952
+      },
+      "tracerPool": 48,
+      "activeTracers": 0,
+      "fx": {
+        "lit": 6,
+        "add": 0,
+        "tracers": 0,
+        "debris": 0,
+        "drawCalls": 5
+      },
+      "ground": {
+        "maskResolution": 512,
+        "detailResolution": 256,
+        "textures": 3,
+        "maskChannels": [
+          "relief",
+          "sand deposit",
+          "base grime",
+          "foot traffic"
+        ],
+        "extent": [
+          -45,
+          -45,
+          45,
+          45
+        ],
+        "physicalDisplacement": false,
+        "dry": true
+      }
+    },
+    "pipeline": {
+      "calls": 78,
+      "tris": 153943,
+      "geos": 45,
+      "tex": 76,
+      "programs": 50,
+      "res": [
+        1088,
+        612
+      ],
+      "scale": 1,
+      "advanced": true,
+      "softShadows": true,
+      "passes": [
+        {
+          "name": "world",
+          "width": 1088,
+          "height": 612,
+          "samples": 2,
+          "hdr": true,
+          "depth": true,
+          "tuning": {}
+        },
+        {
+          "name": "post-depthcopy",
+          "width": 1088,
+          "height": 612,
+          "samples": 0,
+          "hdr": false,
+          "depth": true,
+          "tuning": {}
+        },
+        {
+          "name": "viewmodel",
+          "width": 1088,
+          "height": 612,
+          "samples": 2,
+          "hdr": true,
+          "depth": true,
+          "tuning": {}
+        },
+        {
+          "name": "post-depthhalf",
+          "width": 544,
+          "height": 306,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-ao",
+          "width": 544,
+          "height": 306,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {
+            "uRadius": 0.65,
+            "uIntensity": 1.25
+          }
+        },
+        {
+          "name": "post-blur-ao",
+          "width": 544,
+          "height": 306,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-blur-ao",
+          "width": 544,
+          "height": 306,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-vol",
+          "width": 544,
+          "height": 306,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uSigma": 0.0018,
+            "uFarHaze": 0.22,
+            "uMaxDist": 170
+          }
+        },
+        {
+          "name": "post-blur-vol",
+          "width": 544,
+          "height": 306,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-blur-vol",
+          "width": 544,
+          "height": 306,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-composite",
+          "width": 1088,
+          "height": 612,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uAoStrength": 0.7
+          }
+        },
+        {
+          "name": "post-down",
+          "width": 544,
+          "height": 306,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 272,
+          "height": 153,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 136,
+          "height": 76,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 68,
+          "height": 38,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 34,
+          "height": 19,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-down",
+          "width": 17,
+          "height": 9,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-up",
+          "width": 34,
+          "height": 19,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-up",
+          "width": 68,
+          "height": 38,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-up",
+          "width": 136,
+          "height": 76,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-up",
+          "width": 272,
+          "height": 153,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-up",
+          "width": 544,
+          "height": 306,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {
+            "uMix": 0.62
+          }
+        },
+        {
+          "name": "post-streak",
+          "width": 136,
+          "height": 76,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-streak",
+          "width": 136,
+          "height": 76,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-adapt",
+          "width": 1,
+          "height": 1,
+          "samples": 0,
+          "hdr": true,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-grade",
+          "width": 1088,
+          "height": 612,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        },
+        {
+          "name": "post-final",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": false,
+          "depth": false,
+          "tuning": {}
+        }
+      ]
+    },
+    "render": {
+      "calls": 78,
+      "triangles": 153943,
+      "geometries": 45,
+      "textures": 76
+    },
+    "errors": []
+  },
+  "errors": [],
+  "frames": [
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/walk-0.png",
+      "time": 3328.58525
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/walk-1.png",
+      "time": 3822.532791
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/walk-2.png",
+      "time": 4922.052125
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/walk-3.png",
+      "time": 5467.980583
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/walk-4.png",
+      "time": 5974.931875
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/walk-5.png",
+      "time": 6502.221583
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/walk-6.png",
+      "time": 7023.7365
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/walk-7.png",
+      "time": 7519.837375
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-0.png",
+      "time": 8495.276666
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-1.png",
+      "time": 8982.410416
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-2.png",
+      "time": 9456.183583
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-3.png",
+      "time": 9891.739875
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-4.png",
+      "time": 10497.561916
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-5.png",
+      "time": 11039.032166
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-6.png",
+      "time": 11484.662833
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-7.png",
+      "time": 11939.289583
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-8.png",
+      "time": 12422.402583
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-9.png",
+      "time": 12869.422458
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-10.png",
+      "time": 13329.83475
+    },
+    {
+      "path": "/Users/meow/rea/saltline-reverse/demo/artifacts/techniques/motion/reload-11.png",
+      "time": 13806.726166
+    }
+  ]
+}

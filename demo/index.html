@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Sirocco — Tactical demo</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="view" tabindex="0" aria-label="Sirocco, màn chơi FPS"></canvas>
+    <div id="ui"></div>
+    <div id="hud" hidden>
+      <div class="radar"><canvas id="radar" width="220" height="220"></canvas><span id="location">ĐIỂM XUẤT PHÁT</span></div>
+      <div class="score"><b id="ct-score">0</b><div><span id="round">ROUND 1</span><strong id="timer">1:45</strong></div><b id="t-score">0</b></div>
+      <div class="top-actions"><button id="sound" title="Âm thanh">ÂM: BẬT</button><button id="pause">Ⅱ</button></div>
+      <div id="feed"></div>
+      <div id="objective"></div>
+      <div id="crosshair"><i></i><i></i><i></i><i></i><em></em></div>
+      <div id="hitmarker">×</div>
+      <div id="interact" hidden><span id="prompt"></span><div><i id="hold-progress"></i></div></div>
+      <div class="vitals"><span>✚ <b id="health">100</b></span><span>◇ <b id="armor">100</b></span></div>
+      <div class="ammo"><span id="weapon-name">AK-47</span><div><b id="ammo">30</b><span>/ <span id="reserve">90</span></span></div><small id="reload-state"></small></div>
+      <div id="round-banner" hidden></div><div id="hurt"></div>
+      <span class="hint">WASD di chuyển · Shift đi chậm · R nạp · E tương tác · P tạm dừng</span>
+    </div>
+    <section id="menu" class="overlay">
+      <div class="menu-content">
+        <p class="eyebrow">TACTICAL FIELD EXERCISE / 01</p><h1>SIROCCO<span>ĐẶT BOM. GIỮ VỊ TRÍ.</span></h1>
+        <p class="intro">Hai khu bom. Ba hướng tiếp cận.<br>Mỗi phát đạn đều có giá trị.</p>
+        <fieldset><legend>CHỌN NHIỆM VỤ</legend><div class="choices"><button data-role="attack" class="selected">TẤN CÔNG<small>Đặt bom ở A hoặc B</small></button><button data-role="defend">PHÒNG THỦ<small>Gỡ bom trước khi hết giờ</small></button></div></fieldset>
+        <fieldset><legend>TRANG BỊ</legend><div class="choices weapons"><button data-weapon="ak" class="selected">AK-47<small>Sát thương cao · Giật mạnh</small></button><button data-weapon="m4">M4A1<small>Bắn nhanh · Dễ kiểm soát</small></button></div></fieldset>
+        <button id="start" class="primary" disabled>ĐANG CHUẨN BỊ…</button>
+        <p class="controls">WASD di chuyển · Chuột / IJKL nhìn · Click / Enter bắn<br>R nạp đạn · Giữ E đặt/gỡ bom · C ngồi · Space nhảy · F toàn màn hình</p>
+        <a href="../">Mở Saltline gốc ↗</a>
+      </div>
+      <div class="map-caption"><span>DE_SIROCCO</span><b>31° N / 07° W</b><small>Map mới lấy cảm hứng Dust II · Đấu bot một người</small></div>
+    </section>
+    <section id="pause-menu" class="modal" hidden><div><p class="eyebrow">SIROCCO</p><h2>TẠM DỪNG</h2><button id="resume" class="primary">TIẾP TỤC</button><button id="restart">CHƠI LẠI TRẬN</button><button id="back">ĐỔI NHIỆM VỤ / SÚNG</button></div></section>
+    <section id="result" class="modal" hidden><div><p id="result-team" class="eyebrow"></p><h2 id="result-title"></h2><p id="result-detail"></p><button id="next" class="primary">ROUND TIẾP THEO</button><button id="result-back">VỀ MENU</button></div></section>
+    <div id="boot"><span>SIROCCO</span><p id="boot-msg">Chuẩn bị chiến trường…</p><i id="boot-fill"></i></div>
+    <div id="fatal" hidden></div>
+  </main>
+  <script src="./saltline-engine.js"></script>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

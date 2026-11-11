@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-11-11T02:46:02.886109+00:00",
+  "status": "passed",
+  "checks": {
+    "javascriptSyntax": {
+      "passed": true,
+      "files": [
+        "src/audio.js",
+        "src/bots.js",
+        "src/ground.js",
+        "src/main.js",
+        "src/map.js",
+        "src/render-diagnostics.js",
+        "src/weapons.js",
+        "tests/motion.mjs",
+        "tests/procedural.mjs",
+        "tests/techniques-smoke.mjs",
+        "tests/techniques.mjs",
+        "tests/verify.mjs",
+        "tests/web-game-client.mjs",
+        "saltline-engine.js"
+      ]
+    },
+    "originalHashes": {
+      "passed": true,
+      "sha256": {
+        "game.js": "8d0057dc4d6dac77e20be2ef1f2b623e19346b5803fde1b3dbabbab508d75d9d",
+        "styles.css": "e8de46e058377fd7151396f1d4b53b321cb008856570d7535172523cb4d5fdf9",
+        "index.html": "79b9b9331d2cab861a4b121352f34aa2126635e48039f4a9f3ae91ef80fd331e"
+      }
+    },
+    "adapterReproducibility": {
+      "passed": true,
+      "sha256": "0b341ac773be00c5151014a3c1bad6b81c31ae782f412780c31be808d92ddc78"
+    },
+    "documentationLinks": {
+      "passed": true,
+      "localReferences": 32,
+      "fencesBalanced": true
+    },
+    "verification": {
+      "passed": true,
+      "count": 43,
+      "reportSHA256": "8005fb6f280559250317cccea238da1d7cb9ad2f0cac95d0d63073f1766ebb3f"
+    },
+    "techniques": {
+      "passed": true,
+      "count": 23,
+      "reportSHA256": "7f18dd8db11cfe1ce7b16b148d4e8fe6d5d604dc9798f9401e683329133236fb"
+    },
+    "motion": {
+      "passed": true,
+      "sampledFrames": 20,
+      "videoBytes": 476860
+    }
+  },
+  "note": "Gameplay, techniques and motion results refer to completed browser runs; this audit validates their saved reports and current source syntax/integrity."
+}

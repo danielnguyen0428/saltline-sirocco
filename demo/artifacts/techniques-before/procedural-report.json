@@ -1,0 +1,3356 @@
+{
+  "checks": [
+    {
+      "name": "draw-budget",
+      "passed": true,
+      "detail": {
+        "calls": 233,
+        "triangles": 190396,
+        "geometries": 134,
+        "textures": 41
+      }
+    },
+    {
+      "name": "texture-budget",
+      "passed": true,
+      "detail": {
+        "sets": 9,
+        "textureMB": 54.3,
+        "genMs": 62,
+        "decalMB": 0
+      }
+    },
+    {
+      "name": "finite-geometry",
+      "passed": true,
+      "detail": {
+        "meshes": 144,
+        "textured": 128,
+        "invalid": 0,
+        "degenerate": 0,
+        "geometries": 141
+      }
+    },
+    {
+      "name": "pbr-surface-coverage",
+      "passed": true,
+      "detail": {
+        "meshes": 144,
+        "textured": 128,
+        "invalid": 0,
+        "degenerate": 0,
+        "geometries": 141
+      }
+    },
+    {
+      "name": "sites-connected",
+      "passed": true,
+      "detail": [
+        4,
+        3
+      ]
+    },
+    {
+      "name": "muzzle-flash-axis",
+      "passed": true,
+      "detail": {
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "shots": 3
+      }
+    },
+    {
+      "name": "reload-finished",
+      "passed": true
+    },
+    {
+      "name": "tracer-pool-bounded",
+      "passed": true,
+      "detail": {
+        "before": {
+          "geometries": 166,
+          "textures": 41
+        },
+        "after": {
+          "geometries": 166,
+          "textures": 41
+        },
+        "state": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        }
+      }
+    },
+    {
+      "name": "low-seed-71",
+      "passed": true,
+      "detail": {
+        "calls": 233,
+        "triangles": 190396,
+        "geometries": 134,
+        "textures": 41
+      }
+    },
+    {
+      "name": "low-seed-993",
+      "passed": true,
+      "detail": {
+        "calls": 233,
+        "triangles": 190396,
+        "geometries": 134,
+        "textures": 41
+      }
+    },
+    {
+      "name": "no-runtime-errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "captures": [
+    {
+      "name": "gameplay",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "clay",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "normals",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "final",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "door-close",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.93,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            14
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "site-a",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.9,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            17,
+            0,
+            -17
+          ],
+          "yaw": -1.3,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 158,
+          "triangles": 177916,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "bot-close",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              19
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "bot-stride-0",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              19
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "bot-stride-0.7",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              19
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "bot-stride-1.4",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              19
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "reload-start",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.23,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0.0014377826692911811,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 27,
+          "reserve": 90,
+          "reloading": true,
+          "shots": 3,
+          "spread": 0.002385000000000001
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": false,
+            "hp": 0,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 3,
+          "voices": 6,
+          "played": 6,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 185,
+          "triangles": 186204,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "reload-out",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 103.53,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0.0014377826692911811,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 27,
+          "reserve": 90,
+          "reloading": true,
+          "shots": 3,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": false,
+            "hp": 0,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 4,
+          "voices": 1,
+          "played": 7,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 184,
+          "triangles": 185796,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "reload-in",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 102.63,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0.0014377826692911811,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 27,
+          "reserve": 90,
+          "reloading": true,
+          "shots": 3,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": false,
+            "hp": 0,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 5,
+          "voices": 2,
+          "played": 8,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 185,
+          "triangles": 186204,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "reload-done",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 101.93,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0.0014377826692911811,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 87,
+          "reloading": false,
+          "shots": 3,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": false,
+            "hp": 0,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 6,
+          "voices": 2,
+          "played": 9,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 185,
+          "triangles": 186204,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "m4",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 101.63,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0.0014377826692911811,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "m4",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 3,
+          "spread": 0.0013
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": false,
+            "hp": 0,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 6,
+          "voices": 1,
+          "played": 9,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 184,
+          "triangles": 187128,
+          "geometries": 173,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "narrow",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 101.63,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0.0014377826692911811,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "m4",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 3,
+          "spread": 0.0013
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": false,
+            "hp": 0,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 6,
+          "voices": 0,
+          "played": 9,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 9,
+            "textureMB": 54.3,
+            "genMs": 62,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 108,
+          "triangles": 179936,
+          "geometries": 173,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "low-seed-71",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "low",
+          "textureSize": 512,
+          "materials": {
+            "sets": 9,
+            "textureMB": 13.6,
+            "genMs": 26,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "low-seed-993",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "state": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 1,
+        "score": {
+          "ct": 0,
+          "t": 0
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 0,
+          "voices": 0,
+          "played": 0,
+          "failed": 0
+        },
+        "assets": {
+          "quality": "low",
+          "textureSize": 512,
+          "materials": {
+            "sets": 9,
+            "textureMB": 13.6,
+            "genMs": 27,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 15,
+            "triangles": 84948,
+            "emittedParts": 1906,
+            "materialSlots": 15,
+            "labelTextures": 1,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 8,
+                "triangles": 2260
+              },
+              "m4": {
+                "meshes": 7,
+                "triangles": 3184
+              }
+            },
+            "textureSets": [
+              "gunmetal",
+              "metal",
+              "polymer",
+              "anodized",
+              "wood",
+              "fabric"
+            ]
+          },
+          "bot": {
+            "joints": 12,
+            "meshes": 25,
+            "triangles": 2264
+          },
+          "tracerPool": 32,
+          "activeTracers": 0
+        },
+        "render": {
+          "calls": 233,
+          "triangles": 190396,
+          "geometries": 134,
+          "textures": 41
+        },
+        "errors": []
+      }
+    }
+  ],
+  "limits": [
+    "Frame intervals are CPU/browser wall time, not GPU timing.",
+    "Motion checkpoints use deterministic time steps; they are not a natural match."
+  ],
+  "state": {
+    "phase": "playing",
+    "role": "attack",
+    "round": 1,
+    "score": {
+      "ct": 0,
+      "t": 0
+    },
+    "time": 104.97,
+    "coordinates": "metres; x east, y up, z south; north is -z",
+    "player": {
+      "pos": [
+        0,
+        0,
+        23
+      ],
+      "yaw": 0,
+      "hp": 100,
+      "armor": 100,
+      "onGround": true
+    },
+    "weapon": {
+      "id": "ak",
+      "ammo": 30,
+      "reserve": 90,
+      "reloading": false,
+      "shots": 0,
+      "spread": 0.0018
+    },
+    "bomb": {
+      "planted": false,
+      "site": null,
+      "time": 40,
+      "defuseProgress": 0
+    },
+    "hold": 0,
+    "sites": [
+      {
+        "id": "A",
+        "pos": [
+          19,
+          0,
+          -17
+        ]
+      },
+      {
+        "id": "B",
+        "pos": [
+          -19,
+          0,
+          -17
+        ]
+      }
+    ],
+    "bots": [
+      {
+        "name": "SENTINEL 01",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 02",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          -22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 03",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          0,
+          0,
+          -19
+        ]
+      },
+      {
+        "name": "SENTINEL 04",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -8
+        ]
+      }
+    ],
+    "result": null,
+    "audio": {
+      "state": "running",
+      "muted": false,
+      "paused": false,
+      "buffers": 0,
+      "voices": 0,
+      "played": 0,
+      "failed": 0
+    },
+    "assets": {
+      "quality": "high",
+      "textureSize": 1024,
+      "materials": {
+        "sets": 9,
+        "textureMB": 54.3,
+        "genMs": 62,
+        "decalMB": 0
+      },
+      "map": {
+        "staticDrawCalls": 15,
+        "triangles": 84948,
+        "emittedParts": 1906,
+        "materialSlots": 15,
+        "labelTextures": 1,
+        "facadeBays": 56,
+        "colliders": 79
+      },
+      "weapon": {
+        "models": {
+          "ak": {
+            "meshes": 8,
+            "triangles": 2260
+          },
+          "m4": {
+            "meshes": 7,
+            "triangles": 3184
+          }
+        },
+        "textureSets": [
+          "gunmetal",
+          "metal",
+          "polymer",
+          "anodized",
+          "wood",
+          "fabric"
+        ]
+      },
+      "bot": {
+        "joints": 12,
+        "meshes": 25,
+        "triangles": 2264
+      },
+      "tracerPool": 32,
+      "activeTracers": 0
+    },
+    "render": {
+      "calls": 233,
+      "triangles": 190396,
+      "geometries": 134,
+      "textures": 41
+    },
+    "errors": []
+  },
+  "motion": [
+    {
+      "stride": 0,
+      "legs": [
+        0,
+        4.898587196589413e-17
+      ]
+    },
+    {
+      "stride": 0.7,
+      "legs": [
+        0.2576870748950764,
+        -0.2576870748950765
+      ]
+    },
+    {
+      "stride": 1.4,
+      "legs": [
+        0.39417989199538406,
+        -0.3941798919953841
+      ]
+    }
+  ],
+  "browserFrameIntervals": {
+    "medianMs": 16.799999997019768,
+    "p95Ms": 17.5
+  },
+  "status": "passed"
+}

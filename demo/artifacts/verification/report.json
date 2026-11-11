@@ -1,0 +1,1164 @@
+{
+  "mode": "real-input plus isolated state fixtures",
+  "checks": [
+    {
+      "name": "boot-r180",
+      "passed": true
+    },
+    {
+      "name": "deploy-real-click",
+      "passed": true
+    },
+    {
+      "name": "both-sites-connected",
+      "passed": true,
+      "detail": [
+        {
+          "id": "A",
+          "path": 4,
+          "walkable": true
+        },
+        {
+          "id": "B",
+          "path": 3,
+          "walkable": true
+        }
+      ]
+    },
+    {
+      "name": "W-movement",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        18.542
+      ]
+    },
+    {
+      "name": "jump",
+      "passed": true
+    },
+    {
+      "name": "land",
+      "passed": true
+    },
+    {
+      "name": "world-wall-collision",
+      "passed": true,
+      "detail": [
+        -13.658,
+        0,
+        23
+      ]
+    },
+    {
+      "name": "fire-consumes-ammo",
+      "passed": true,
+      "detail": {
+        "id": "ak",
+        "ammo": 28,
+        "reserve": 90,
+        "reloading": false,
+        "shots": 2,
+        "spread": 0.002905
+      }
+    },
+    {
+      "name": "reload-starts",
+      "passed": true
+    },
+    {
+      "name": "reload-conserves-reserve",
+      "passed": true,
+      "detail": {
+        "id": "ak",
+        "ammo": 30,
+        "reserve": 88,
+        "reloading": false,
+        "shots": 2,
+        "spread": 0.0018
+      }
+    },
+    {
+      "name": "crouch-real-key",
+      "passed": true
+    },
+    {
+      "name": "crouch-held",
+      "passed": true
+    },
+    {
+      "name": "keyboard-look",
+      "passed": true
+    },
+    {
+      "name": "pause-freezes",
+      "passed": true,
+      "detail": 95.33
+    },
+    {
+      "name": "resume",
+      "passed": true
+    },
+    {
+      "name": "no-automatic-heal",
+      "passed": true,
+      "detail": 83.5
+    },
+    {
+      "name": "M4-fire",
+      "passed": true
+    },
+    {
+      "name": "head-body-damage-and-wall",
+      "passed": true,
+      "detail": {
+        "before": 100,
+        "damaged": 64,
+        "head": true,
+        "wallBlocked": true,
+        "alive": false
+      }
+    },
+    {
+      "name": "real-fire-hits-bot",
+      "passed": true
+    },
+    {
+      "name": "bot-reaction-delay",
+      "passed": true
+    },
+    {
+      "name": "bot-shoots-player",
+      "passed": true
+    },
+    {
+      "name": "walk-route-A",
+      "passed": true,
+      "detail": {
+        "distance": 0.09320831224843734,
+        "steps": 135
+      }
+    },
+    {
+      "name": "walk-route-B",
+      "passed": true,
+      "detail": {
+        "distance": 0.1586023775818197,
+        "steps": 147
+      }
+    },
+    {
+      "name": "plant-release-cancels",
+      "passed": true
+    },
+    {
+      "name": "plant-completes",
+      "passed": true,
+      "detail": {
+        "planted": true,
+        "pos": [
+          19,
+          0,
+          -17
+        ],
+        "site": "A",
+        "time": 39.783333333333346,
+        "defuseProgress": 0
+      }
+    },
+    {
+      "name": "fuse-explosion-wins",
+      "passed": true,
+      "detail": {
+        "winner": "t",
+        "reason": "Bom đã phát nổ"
+      }
+    },
+    {
+      "name": "next-round-reset",
+      "passed": true,
+      "detail": {
+        "phase": "playing",
+        "role": "attack",
+        "round": 2,
+        "score": {
+          "ct": 0,
+          "t": 1
+        },
+        "time": 104.97,
+        "coordinates": "metres; x east, y up, z south; north is -z",
+        "player": {
+          "pos": [
+            0,
+            0,
+            23
+          ],
+          "yaw": 0,
+          "hp": 100,
+          "armor": 100,
+          "onGround": true
+        },
+        "weapon": {
+          "id": "ak",
+          "ammo": 30,
+          "reserve": 90,
+          "reloading": false,
+          "shots": 0,
+          "spread": 0.0018
+        },
+        "bomb": {
+          "planted": false,
+          "site": null,
+          "time": 40,
+          "defuseProgress": 0
+        },
+        "hold": 0,
+        "sites": [
+          {
+            "id": "A",
+            "pos": [
+              19,
+              0,
+              -17
+            ]
+          },
+          {
+            "id": "B",
+            "pos": [
+              -19,
+              0,
+              -17
+            ]
+          }
+        ],
+        "bots": [
+          {
+            "name": "SENTINEL 01",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 02",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              -22,
+              0,
+              -20
+            ]
+          },
+          {
+            "name": "SENTINEL 03",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              0,
+              0,
+              -19
+            ]
+          },
+          {
+            "name": "SENTINEL 04",
+            "alive": true,
+            "hp": 100,
+            "pos": [
+              22,
+              0,
+              -8
+            ]
+          }
+        ],
+        "result": null,
+        "audio": {
+          "state": "running",
+          "muted": false,
+          "paused": false,
+          "buffers": 51,
+          "voices": 0,
+          "capacity": 45,
+          "reverb": [
+            true,
+            true
+          ],
+          "stems": 5,
+          "pending": 0,
+          "compressor": true,
+          "softClip": true,
+          "played": 267,
+          "failed": 0,
+          "stolen": 79,
+          "peakVoices": 45,
+          "generated": 58
+        },
+        "assets": {
+          "quality": "high",
+          "textureSize": 1024,
+          "materials": {
+            "sets": 11,
+            "textureMB": 59.3,
+            "genMs": 148,
+            "decalMB": 0
+          },
+          "map": {
+            "staticDrawCalls": 22,
+            "triangles": 109478,
+            "emittedParts": 1900,
+            "materialSlots": 21,
+            "labelTextures": 1,
+            "groundTextures": 3,
+            "softProps": 7,
+            "facadeBays": 56,
+            "colliders": 79
+          },
+          "weapon": {
+            "models": {
+              "ak": {
+                "meshes": 10,
+                "triangles": 2680
+              },
+              "m4": {
+                "meshes": 9,
+                "triangles": 3660
+              }
+            },
+            "textureSets": [
+              "wood",
+              "fabric"
+            ],
+            "handTechnique": "Saltline Vv section loft with joint bisectors",
+            "muzzleQuads": 8,
+            "springs": 9,
+            "reload": "smootherstep position + quaternion keyframes"
+          },
+          "bot": {
+            "joints": 16,
+            "meshes": 1,
+            "triangles": 6952
+          },
+          "tracerPool": 48,
+          "activeTracers": 0,
+          "fx": {
+            "lit": 0,
+            "add": 0,
+            "tracers": 0,
+            "debris": 0,
+            "drawCalls": 5
+          },
+          "ground": {
+            "maskResolution": 512,
+            "detailResolution": 256,
+            "textures": 3,
+            "maskChannels": [
+              "relief",
+              "sand deposit",
+              "base grime",
+              "foot traffic"
+            ],
+            "extent": [
+              -45,
+              -45,
+              45,
+              45
+            ],
+            "physicalDisplacement": false,
+            "dry": true
+          }
+        },
+        "pipeline": {
+          "calls": 131,
+          "tris": 297644,
+          "geos": 54,
+          "tex": 77,
+          "programs": 50,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "passes": [
+            {
+              "name": "world",
+              "width": 1280,
+              "height": 720,
+              "samples": 4,
+              "hdr": true,
+              "depth": true
+            },
+            {
+              "name": "post-depthcopy",
+              "width": 1280,
+              "height": 720,
+              "samples": 0,
+              "hdr": false,
+              "depth": true
+            },
+            {
+              "name": "viewmodel",
+              "width": 1280,
+              "height": 720,
+              "samples": 4,
+              "hdr": true,
+              "depth": true
+            },
+            {
+              "name": "post-depthhalf",
+              "width": 640,
+              "height": 360,
+              "samples": 0,
+              "hdr": false,
+              "depth": false
+            },
+            {
+              "name": "post-ao",
+              "width": 640,
+              "height": 360,
+              "samples": 0,
+              "hdr": false,
+              "depth": false
+            },
+            {
+              "name": "post-blur-ao",
+              "width": 640,
+              "height": 360,
+              "samples": 0,
+              "hdr": false,
+              "depth": false
+            },
+            {
+              "name": "post-blur-ao",
+              "width": 640,
+              "height": 360,
+              "samples": 0,
+              "hdr": false,
+              "depth": false
+            },
+            {
+              "name": "post-vol",
+              "width": 640,
+              "height": 360,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-blur-vol",
+              "width": 640,
+              "height": 360,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-blur-vol",
+              "width": 640,
+              "height": 360,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-composite",
+              "width": 1280,
+              "height": 720,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-motion",
+              "width": 1280,
+              "height": 720,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-down",
+              "width": 640,
+              "height": 360,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-down",
+              "width": 320,
+              "height": 180,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-down",
+              "width": 160,
+              "height": 90,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-down",
+              "width": 80,
+              "height": 45,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-down",
+              "width": 40,
+              "height": 22,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-down",
+              "width": 20,
+              "height": 11,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-up",
+              "width": 40,
+              "height": 22,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-up",
+              "width": 80,
+              "height": 45,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-up",
+              "width": 160,
+              "height": 90,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-up",
+              "width": 320,
+              "height": 180,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-up",
+              "width": 640,
+              "height": 360,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-streak",
+              "width": 160,
+              "height": 90,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-streak",
+              "width": 160,
+              "height": 90,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-adapt",
+              "width": 1,
+              "height": 1,
+              "samples": 0,
+              "hdr": true,
+              "depth": false
+            },
+            {
+              "name": "post-grade",
+              "width": 1280,
+              "height": 720,
+              "samples": 0,
+              "hdr": false,
+              "depth": false
+            },
+            {
+              "name": "post-final",
+              "width": 1280,
+              "height": 720,
+              "samples": 0,
+              "hdr": false,
+              "depth": false
+            }
+          ]
+        },
+        "render": {
+          "calls": 131,
+          "triangles": 297644,
+          "geometries": 54,
+          "textures": 77
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "defuse-release-cancels",
+      "passed": true
+    },
+    {
+      "name": "defuse-wins",
+      "passed": true,
+      "detail": {
+        "winner": "ct",
+        "reason": "Đã gỡ bom an toàn"
+      }
+    },
+    {
+      "name": "defend-fuse-loss",
+      "passed": true
+    },
+    {
+      "name": "attack-timeout-loss",
+      "passed": true
+    },
+    {
+      "name": "player-death-loss",
+      "passed": true
+    },
+    {
+      "name": "direct-player-death-event",
+      "passed": true
+    },
+    {
+      "name": "timer-minute-boundary",
+      "passed": true
+    },
+    {
+      "name": "defuser-change-resets",
+      "passed": true,
+      "detail": {
+        "before": 4,
+        "after": 0.1
+      }
+    },
+    {
+      "name": "unreachable-patrol-recovers",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "elimination-win",
+      "passed": true
+    },
+    {
+      "name": "bot-defuse-wins",
+      "passed": true
+    },
+    {
+      "name": "mute-button",
+      "passed": true
+    },
+    {
+      "name": "audio-unlocked-and-playing",
+      "passed": true,
+      "detail": {
+        "state": "running",
+        "muted": true,
+        "paused": false,
+        "buffers": 51,
+        "voices": 0,
+        "capacity": 45,
+        "reverb": [
+          true,
+          true
+        ],
+        "stems": 5,
+        "pending": 0,
+        "compressor": true,
+        "softClip": true,
+        "played": 437,
+        "failed": 0,
+        "stolen": 172,
+        "peakVoices": 45,
+        "generated": 58
+      }
+    },
+    {
+      "name": "audio-paused",
+      "passed": true
+    },
+    {
+      "name": "narrow-HUD-fit",
+      "passed": true
+    },
+    {
+      "name": "no-JavaScript-errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Waypoint heading and explicit placement isolate map/objective tests. Bot updates disabled for isolated player/objective checks.",
+    "Not a natural full-match victory or an acoustic quality assessment. Mobile captures check layout only."
+  ],
+  "finalState": {
+    "phase": "playing",
+    "role": "attack",
+    "round": 2,
+    "score": {
+      "ct": 5,
+      "t": 3
+    },
+    "time": 104.97,
+    "coordinates": "metres; x east, y up, z south; north is -z",
+    "player": {
+      "pos": [
+        0,
+        0,
+        23
+      ],
+      "yaw": 0,
+      "hp": 100,
+      "armor": 100,
+      "onGround": true
+    },
+    "weapon": {
+      "id": "ak",
+      "ammo": 30,
+      "reserve": 90,
+      "reloading": false,
+      "shots": 0,
+      "spread": 0.0018
+    },
+    "bomb": {
+      "planted": false,
+      "site": null,
+      "time": 40,
+      "defuseProgress": 0
+    },
+    "hold": 0,
+    "sites": [
+      {
+        "id": "A",
+        "pos": [
+          19,
+          0,
+          -17
+        ]
+      },
+      {
+        "id": "B",
+        "pos": [
+          -19,
+          0,
+          -17
+        ]
+      }
+    ],
+    "bots": [
+      {
+        "name": "SENTINEL 01",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 02",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          -22,
+          0,
+          -20
+        ]
+      },
+      {
+        "name": "SENTINEL 03",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          0,
+          0,
+          -19
+        ]
+      },
+      {
+        "name": "SENTINEL 04",
+        "alive": true,
+        "hp": 100,
+        "pos": [
+          22,
+          0,
+          -8
+        ]
+      }
+    ],
+    "result": null,
+    "audio": {
+      "state": "running",
+      "muted": true,
+      "paused": false,
+      "buffers": 51,
+      "voices": 0,
+      "capacity": 45,
+      "reverb": [
+        true,
+        true
+      ],
+      "stems": 5,
+      "pending": 0,
+      "compressor": true,
+      "softClip": true,
+      "played": 437,
+      "failed": 0,
+      "stolen": 172,
+      "peakVoices": 45,
+      "generated": 58
+    },
+    "assets": {
+      "quality": "high",
+      "textureSize": 1024,
+      "materials": {
+        "sets": 11,
+        "textureMB": 59.3,
+        "genMs": 148,
+        "decalMB": 0
+      },
+      "map": {
+        "staticDrawCalls": 22,
+        "triangles": 109478,
+        "emittedParts": 1900,
+        "materialSlots": 21,
+        "labelTextures": 1,
+        "groundTextures": 3,
+        "softProps": 7,
+        "facadeBays": 56,
+        "colliders": 79
+      },
+      "weapon": {
+        "models": {
+          "ak": {
+            "meshes": 10,
+            "triangles": 2680
+          },
+          "m4": {
+            "meshes": 9,
+            "triangles": 3660
+          }
+        },
+        "textureSets": [
+          "wood",
+          "fabric"
+        ],
+        "handTechnique": "Saltline Vv section loft with joint bisectors",
+        "muzzleQuads": 8,
+        "springs": 9,
+        "reload": "smootherstep position + quaternion keyframes"
+      },
+      "bot": {
+        "joints": 16,
+        "meshes": 1,
+        "triangles": 6952
+      },
+      "tracerPool": 48,
+      "activeTracers": 0,
+      "fx": {
+        "lit": 0,
+        "add": 0,
+        "tracers": 0,
+        "debris": 0,
+        "drawCalls": 5
+      },
+      "ground": {
+        "maskResolution": 512,
+        "detailResolution": 256,
+        "textures": 3,
+        "maskChannels": [
+          "relief",
+          "sand deposit",
+          "base grime",
+          "foot traffic"
+        ],
+        "extent": [
+          -45,
+          -45,
+          45,
+          45
+        ],
+        "physicalDisplacement": false,
+        "dry": true
+      }
+    },
+    "pipeline": {
+      "calls": 84,
+      "tris": 160564,
+      "geos": 61,
+      "tex": 77,
+      "programs": 50,
+      "res": [
+        1280,
+        720
+      ],
+      "scale": 1,
+      "advanced": true,
+      "softShadows": true,
+      "passes": [
+        {
+          "name": "world",
+          "width": 1280,
+          "height": 720,
+          "samples": 4,
+          "hdr": true,
+          "depth": true
+        },
+        {
+          "name": "post-depthcopy",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": false,
+          "depth": true
+        },
+        {
+          "name": "viewmodel",
+          "width": 1280,
+          "height": 720,
+          "samples": 4,
+          "hdr": true,
+          "depth": true
+        },
+        {
+          "name": "post-depthhalf",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": false,
+          "depth": false
+        },
+        {
+          "name": "post-ao",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": false,
+          "depth": false
+        },
+        {
+          "name": "post-blur-ao",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": false,
+          "depth": false
+        },
+        {
+          "name": "post-blur-ao",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": false,
+          "depth": false
+        },
+        {
+          "name": "post-vol",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-blur-vol",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-blur-vol",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-composite",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-motion",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-down",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-down",
+          "width": 320,
+          "height": 180,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-down",
+          "width": 160,
+          "height": 90,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-down",
+          "width": 80,
+          "height": 45,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-down",
+          "width": 40,
+          "height": 22,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-down",
+          "width": 20,
+          "height": 11,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-up",
+          "width": 40,
+          "height": 22,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-up",
+          "width": 80,
+          "height": 45,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-up",
+          "width": 160,
+          "height": 90,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-up",
+          "width": 320,
+          "height": 180,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-up",
+          "width": 640,
+          "height": 360,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-streak",
+          "width": 160,
+          "height": 90,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-streak",
+          "width": 160,
+          "height": 90,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-adapt",
+          "width": 1,
+          "height": 1,
+          "samples": 0,
+          "hdr": true,
+          "depth": false
+        },
+        {
+          "name": "post-grade",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": false,
+          "depth": false
+        },
+        {
+          "name": "post-final",
+          "width": 1280,
+          "height": 720,
+          "samples": 0,
+          "hdr": false,
+          "depth": false
+        }
+      ]
+    },
+    "render": {
+      "calls": 84,
+      "triangles": 160564,
+      "geometries": 61,
+      "textures": 77
+    },
+    "errors": []
+  },
+  "status": "passed"
+}

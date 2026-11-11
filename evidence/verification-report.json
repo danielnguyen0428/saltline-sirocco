@@ -1,0 +1,204 @@
+{
+  "mode": "controlled-runtime-smoke",
+  "checks": [
+    {
+      "name": "boot",
+      "passed": true,
+      "detail": {
+        "fatal": null,
+        "state": "title"
+      }
+    },
+    {
+      "name": "three-r180",
+      "passed": true,
+      "detail": "180"
+    },
+    {
+      "name": "modules-without-fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "initial-state",
+      "passed": true,
+      "detail": {
+        "relays": 0,
+        "ammo": 30,
+        "reserve": 150
+      }
+    },
+    {
+      "name": "movement",
+      "passed": true,
+      "detail": {
+        "distance": 0.9583536400191868
+      }
+    },
+    {
+      "name": "fire",
+      "passed": true,
+      "detail": {
+        "before": 30,
+        "after": 29,
+        "shots": 1
+      }
+    },
+    {
+      "name": "reload",
+      "passed": true,
+      "detail": {
+        "ammo": 30,
+        "reserve": 149
+      }
+    },
+    {
+      "name": "pause-freezes-mission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "relay-rejects-facing-away",
+      "passed": true,
+      "detail": {
+        "progress": 0
+      }
+    },
+    {
+      "name": "relay-partial-hold",
+      "passed": true,
+      "detail": {
+        "progress": 0.15283333333830035
+      }
+    },
+    {
+      "name": "relay-release-decays",
+      "passed": true,
+      "detail": {
+        "progress": 0
+      }
+    },
+    {
+      "name": "relay-cut-A",
+      "passed": true,
+      "detail": {
+        "cut": 1
+      }
+    },
+    {
+      "name": "relay-cut-B",
+      "passed": true,
+      "detail": {
+        "cut": 2
+      }
+    },
+    {
+      "name": "relay-cut-C",
+      "passed": true,
+      "detail": {
+        "cut": 3
+      }
+    },
+    {
+      "name": "all-relays-unlock-extraction",
+      "passed": true,
+      "detail": {
+        "cut": 3
+      }
+    },
+    {
+      "name": "extraction-completes-mission",
+      "passed": true,
+      "detail": {
+        "state": "complete"
+      }
+    },
+    {
+      "name": "restart-resets-run",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lethal-damage",
+      "passed": true,
+      "detail": {
+        "health": 0
+      }
+    },
+    {
+      "name": "retry-button-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retry-restores-run",
+      "passed": true,
+      "detail": {
+        "retries": 1
+      }
+    },
+    {
+      "name": "no-game-errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "observations": {
+    "renderer": {
+      "calls": 416,
+      "tris": 2711881,
+      "geos": 181,
+      "tex": 145,
+      "programs": 129,
+      "res": [
+        960,
+        540
+      ],
+      "scale": 1,
+      "advanced": true,
+      "softShadows": true,
+      "fps": 101.9,
+      "state": "title"
+    },
+    "viewport": {
+      "width": 960,
+      "height": 540
+    },
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "finalRenderer": {
+      "calls": 388,
+      "tris": 2007281,
+      "geos": 207,
+      "tex": 156,
+      "programs": 115,
+      "res": [
+        864,
+        486
+      ],
+      "scale": 0.9,
+      "advanced": true,
+      "softShadows": true,
+      "fps": 60,
+      "state": "playing"
+    },
+    "errors": []
+  },
+  "limitations": [
+    "Synthetic key events and explicit player placement; not a natural end-to-end win.",
+    "Audio disabled in this fixture; mobile touch and gamepad not exercised."
+  ],
+  "status": "passed",
+  "evidence_id": "ev_3854589c34d214bec8f6de004e381579c8e0cac558896d6e4eed17f10e1c64ed",
+  "browser": {
+    "mode": "launch",
+    "process_ownership": "provider-owned",
+    "cleanup": "terminated-owned-process",
+    "product": "Chromium",
+    "version": "157.0.8103.50"
+  }
+}

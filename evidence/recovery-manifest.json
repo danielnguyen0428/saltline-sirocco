@@ -1,0 +1,28 @@
+{
+  "source_url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+  "frame_url": "https://5326a6ff-d95f-4e59-9b2e-b3f3bcb780e3.frame.claudeusercontent.com/_f/1794242702-61c7/?__frame_v=manifest.50700ebc68dce463.json",
+  "recovered_on": "2026-11-10",
+  "transformation": "Remove Claude frame runtime; externalize unchanged game script and CSS; add standalone HTML document and viewport.",
+  "files": {
+    "evidence/game-page.html": {
+      "bytes": 1464373,
+      "sha256": "effa3c3eb59d89313adaa9f11ff332b24acc09bb080ccfbbcd454daba3ede631"
+    },
+    "evidence/game.bundle.js": {
+      "bytes": 1391985,
+      "sha256": "8d0057dc4d6dac77e20be2ef1f2b623e19346b5803fde1b3dbabbab508d75d9d"
+    },
+    "game.js": {
+      "bytes": 1391985,
+      "sha256": "8d0057dc4d6dac77e20be2ef1f2b623e19346b5803fde1b3dbabbab508d75d9d"
+    },
+    "styles.css": {
+      "bytes": 30777,
+      "sha256": "e8de46e058377fd7151396f1d4b53b321cb008856570d7535172523cb4d5fdf9"
+    },
+    "index.html": {
+      "bytes": 878,
+      "sha256": "79b9b9331d2cab861a4b121352f34aa2126635e48039f4a9f3ae91ef80fd331e"
+    }
+  }
+}
